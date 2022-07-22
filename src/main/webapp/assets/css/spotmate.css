@@ -1,0 +1,119 @@
+@charset "UTF-8";
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;flex-shrink:0;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+table {border-collapse:collapse;border-spacing:0}
+ul, ol {list-style-type: none;}
+a {text-decoration: none;}
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+body {
+	font-size: 14px;
+	font-family: "맑은 고딕", 돋음, 굴림;
+}
+#wrap {
+		width: 1440px;
+		margin: 0px auto;
+	}
+#wrap > #header {
+	border-bottom: 1px solid #bfbfbf;
+}
+#wrap > #footer {
+	float: left;
+	border-top: 1px solid #bfbfbf;
+/* 	background-color: #bfbfbf; */
+}
+#wrap > #contents {
+	margin: 250px 0px 250px 0px;
+	
+}
+#header {
+		width:1440px;
+/* 		margin: 0px 240px 0px 240px; */
+}
+#header > ul > li {
+	float: left;
+	padding: 20px 175px 0px 0px;
+}
+#header > ul {
+	float: left;
+	margin: 50px 0px 0px 0px;
+}
+#header > ol {
+	float:right;
+	margin: 50px 0px 0px 0px;
+}
+#header > ol > li {
+	float: left;
+	padding: 22px 0px 0px 30px;
+}
+#header > h1 {
+	float:left;
+	margin: 30px 120px 0px 0px;
+}
+
+
+#contents {
+	width: 1440px;
+	margin: 0px 240px 0px 240px;
+	float:left;
+	text-align: center;
+}
+#contents table {
+	margin: 0px 0px 0px 120px;
+}
+#contents table th {
+	padding: 0px 100px 0px 100px;
+}
+#contents td {
+	padding: 20px 0px 20px 0px;
+}
+#contents ul {
+	margin: 0px 0px 0px 665px;
+	float: left;
+}
+#contents ul li{
+	float: left;
+	padding: 0px 10px 0px 10px;
+}
+#contents .head input{
+	margin: 25px 0px 25px 1020px;
+}
+#contents #joinp {
+	text-align: right;
+	border-bottom: 1px solid #bfbfbf;
+}
+#contents #joinindex {
+	margin: 0px 0px 25px 0px;
+}
+
+
+
+#footer {
+		width: 1440px;
+}
+#footer > h1 {
+	float:left;
+	margin: 50px 75px 0px 0px;
+}
+#footer > #info {
+	float:left;
+	margin: 60px 0px 0px 150px;
+}
+#footer > #info2 {
+	float:left;
+	margin: 60px 0px 0px 150px;
+}
+#footer > #sns {
+	float:right;
+}
+#footer > #sns > ul {
+	float:right;
+}
+#footer > #sns > ul > li {
+	float:left;
+	padding: 50px 0px 0px 25px;
+}
