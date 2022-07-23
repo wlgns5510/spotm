@@ -25,7 +25,7 @@ public class Realtime {
 			clients.add(s);
 			System.out.println("session open : " + s);
 		}else {
-			System.out.println("이미 연결된 session 임!!!");
+			System.out.println("이미 연결된 ssion 임!!!");
 		}
 	}
 	
