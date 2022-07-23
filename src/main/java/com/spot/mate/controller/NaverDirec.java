@@ -1,5 +1,6 @@
 package com.spot.mate.controller;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -18,7 +19,9 @@ public class NaverDirec {
 
 
 	@SuppressWarnings("deprecation")
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException, IOException {
+		
+		ProtectInfo pI = new ProtectInfo();
 
 		System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);
 		
@@ -52,7 +55,7 @@ public class NaverDirec {
 			driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/directions-search-list/search-list/search-list-contents/perfect-scrollbar/div/div[1]/div/div/div/search-item-address/div")).click();
 		}
 		driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/div[1]/directions-search/div[2]/button[3]")).sendKeys(Keys.RETURN);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id=\"container\"]/div[1]/maps-controller/dynamic-content-outlet[1]/control-widget/control-top-widget-holder/div/control-export-group/control-save/button")).sendKeys(Keys.RETURN);
 		String str2 = driver.findElement(By.className("route_summary_box")).getText();
 		String str3 = driver.getCurrentUrl();
@@ -60,8 +63,15 @@ public class NaverDirec {
 		driver.quit();
 
 		System.out.println(str1);
+		String str1e = pI.encryptData(str1);
+		System.out.println(str1e);
 		System.out.println(str2);
+		String str2e = pI.encryptData(str2);
+		System.out.println(str2e);
 		System.out.println(str3);
+		String str3e = pI.encryptData(str3);
+		System.out.println(str3e);
+		
 	}
 	
 
