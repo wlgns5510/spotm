@@ -32,24 +32,27 @@ public class NaverDirec {
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("https://map.naver.com/v5/directions/-/-/-/car?c=14100939.1067141,4548416.6248709,14,0,0,0,dh");
-		driver.findElement(By.id("directionStart0")).sendKeys("대전");
+		driver.findElement(By.id("directionStart0")).sendKeys("방배역");
 		String str1 = driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/div[1]/directions-search/div[1]/directions-search-box[1]/div/directions-search-box-instant-search/div/instant-search-list/div")).getText();
 		driver.findElement(By.id("directionStart0")).sendKeys(Keys.RETURN);
-		try {//검색결과 여러개 일 때
+		try {
+			//검색결과 여러개 일 때
 			driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/directions-search-list/search-list/search-list-contents/perfect-scrollbar/div/div[1]/div/div/div/search-item-place[1]/div")).click();
 		}catch (NoSuchElementException e) {
 			//검색결과 한 개 일 때
 			driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/directions-search-list/search-list/search-list-contents/perfect-scrollbar/div/div[1]/div/div/div/search-item-address/div")).click();
 		}
-		driver.findElement(By.id("directionGoal1")).sendKeys("강릉");
+		driver.findElement(By.id("directionGoal1")).sendKeys("이수 메가박스");
 		driver.findElement(By.id("directionGoal1")).sendKeys(Keys.RETURN);
-		try {//검색결과 여러개 일 때
+		try {
+			//검색결과 여러개 일 때
 			driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/directions-search-list/search-list/search-list-contents/perfect-scrollbar/div/div[1]/div/div/div/search-item-place[1]/div")).click();
-		}catch (NoSuchElementException e) {//검색결과 한 개 일 때
+		}catch (NoSuchElementException e) {
+			//검색결과 한 개 일 때
 			driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/directions-search-list/search-list/search-list-contents/perfect-scrollbar/div/div[1]/div/div/div/search-item-address/div")).click();
 		}
 		driver.findElement(By.xpath("//*[@id=\"container\"]/shrinkable-layout/div/directions-layout/directions-result/div[1]/div[1]/directions-search/div[2]/button[3]")).sendKeys(Keys.RETURN);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@id=\"container\"]/div[1]/maps-controller/dynamic-content-outlet[1]/control-widget/control-top-widget-holder/div/control-export-group/control-save/button")).sendKeys(Keys.RETURN);
 		String str2 = driver.findElement(By.className("route_summary_box")).getText();
 		String str3 = driver.getCurrentUrl();
