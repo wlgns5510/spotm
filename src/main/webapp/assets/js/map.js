@@ -1,29 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-<!--     <meta http-equiv='refresh' content='1;'> -->
-
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c6544d76c3912585c75cfd126a875faf&libraries=services,clusterer,drawing"></script>
-<script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
-
-<style>
-	#map { 
-		margin: 0px 25% 0px 25%;
-	} 
-</style>
-    <title>실시간 위치 나타내기</title>
-    
-</head>
-<body>
-<div id="map" style="width:1440px;height:700px;"></div>
-
-</body>
-<!-- <script type="text/javascript" src="./assets/js/map.js"></script> -->
-<script> 
-	var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+/**
+ * 
+ */
+ 
+ 	var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 	    mapOption = { 
 	        center: new kakao.maps.LatLng(37.48436301061165, 126.9922281879226), // 지도의 중심좌표
 	        level: 2 // 지도의 확대 레벨 
@@ -85,5 +64,3 @@
 			    displayMarker(locPosition);
 			}
 	}
-</script>
-</html>
