@@ -5,25 +5,25 @@
 <head>
 <meta charset="UTF-8">
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script type="text/javascript" src="../assets/js/jquery-1.12.4.js"></script>
 <title>Insert title here</title>
 </head>
 <body>
 <h1>hi!!!!!!!!!!!!!!</h1>
-</body>
 <ul>
 	<li onclick="kakaoLogin();">
       <a href="javascript:void(0)">
-          <span>카카오 로그인</span>
+      	<img src="/kakao_login_large_narrow.png" style="height:60px">
       </a>
 	</li>
 	<li onclick="kakaoLogout();">
-      <a href="javascript:void(0)">
-          <span>카카오 로그아웃</span>
-      </a>
+		<a href="javascript:void(0)">
+			<img src="/kakao_login_large_narrow.png" style="height:60px">
+	    </a>
 	</li>
 </ul>
-<!-- 카카오 스크립트 -->
-<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<div id="result"></div>
+</body>
 <script>
 Kakao.init('c6544d76c3912585c75cfd126a875faf'); //발급받은 키 중 javascript키를 사용해준다.
 console.log(Kakao.isInitialized()); // sdk초기화여부판단
@@ -34,7 +34,23 @@ function kakaoLogin() {
         Kakao.API.request({
           url: '/v2/user/me',
           success: function (response) {
-        	  console.log(response)
+//         	  console.log(response)
+              id = response.id
+              connected_at = response.connected_at
+              kakao_account = response.kakao_account
+              $('#result').append(kakao_account);
+              responsediv="<h2>로그인 성공 !!"
+           	  responsediv += '<h4>id: '+id+'<h4>'
+           	  responsediv += '<h4>connected_at: '+connected_at+'<h4>'
+              email ="";
+              gender = "";
+              if(typeof kakao_account != 'undefined'){
+            	  email = kakao_account.email;
+            	  gender = kakao_account.gender;
+              }
+              responsediv += '<h4>email: '+email+'<h4>'
+              responsediv += '<h4>gender: '+gender+'<h4>'
+              $('#result').append(responsediv);
           },
           fail: function (error) {
             console.log(error)
