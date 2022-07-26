@@ -1,5 +1,7 @@
 package com.spot.mate.controller;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -8,37 +10,91 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverLicenseAuth {
 	
-	public static final String WEB_DRIVER_ID = "webdriver.chrome.driver"; // 드라이버 ID
-	public static final String WEB_DRIVER_PATH = "./chromedriver.exe"; // 드라이버 경로
-	
-	public static void main(String[] args) throws InterruptedException {
-
-		System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);
 		
+	@SuppressWarnings("deprecation")
+	private WebDriver setup() {
+		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("disable-gpu");
-		options.addArguments("lang=ko_KR");
-		options.addArguments("headless");
-		options.addArguments("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
-		
+		options.addArguments("disable-gpu", "lang=ko_KR", "window-size=1440,810", "headless",
+				"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36\r\n");
 		WebDriver driver = new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+		driver.get("https://map.naver.com/v5/directions/-/-/-/car?c=14100939.1067141,4548416.6248709,14,0,0,0,dh");
+		return driver;
+	}
+
+	public String LicenseAuth(String name, String btd, String serial, String encSerial) {
+		WebDriver driver = setup();
 		driver.get("https://www.safedriving.or.kr/LnrForRtnLicns/LnrForRtnLicnsTruthYn.do");
+		String[] arr = serial.split("-");
+		switch (arr[0]) {
+			case "13" :
+				arr[0] = "경기";
+				break;
+			case "11" :
+				arr[0] = "서울";
+				break;
+			case "28" :
+				arr[0] = "경기북부";
+				break;
+			case "14" :
+				arr[0] = "강원";
+				break;
+			case "15" :
+				arr[0] = "충북";
+				break;
+			case "16" :
+				arr[0] = "충남";
+				break;
+			case "17" :
+				arr[0] = "전북";
+				break;
+			case "18" :
+				arr[0] = "전남";
+				break;
+			case "19" :
+				arr[0] = "경북";
+				break;
+			case "20" :
+				arr[0] = "경남";
+				break;
+			case "21" :
+				arr[0] = "제주";
+				break;
+			case "22" :
+				arr[0] = "대구";
+				break;
+			case "23" :
+				arr[0] = "인천";
+				break;
+			case "24" :
+				arr[0] = "광주";
+				break;
+			case "25" :
+				arr[0] = "대전";
+				break;
+			case "26" :
+				arr[0] = "울산";
+				break;
+			case "12" :
+				arr[0] = "부산";
+				break;
+		}
 		
-		driver.findElement(By.id("sName")).sendKeys("이준규");
-		driver.findElement(By.id("sJumin1")).sendKeys("970107");
-		driver.findElement(By.id("licence01")).sendKeys("서울");
-		driver.findElement(By.id("licence02")).sendKeys("22");
-		driver.findElement(By.id("licence03")).sendKeys("013848");
-		driver.findElement(By.id("licence04")).sendKeys("10");
-		driver.findElement(By.id("serialnum")).sendKeys("DN7PHK");
+		driver.findElement(By.id("sName")).sendKeys(name);
+		driver.findElement(By.id("sJumin1")).sendKeys(btd);
+		driver.findElement(By.id("licence01")).sendKeys(arr[0]);
+		driver.findElement(By.id("licence02")).sendKeys(arr[1]);
+		driver.findElement(By.id("licence03")).sendKeys(arr[2]);
+		driver.findElement(By.id("licence04")).sendKeys(arr[3]);
+		driver.findElement(By.id("serialnum")).sendKeys(encSerial);
 		driver.findElement(By.xpath("//*[@id=\"resultform\"]/div/div[3]/a")).sendKeys(Keys.RETURN);
 		String str = driver.findElement(By.className("ul_list")).getText();
-//		driver.quit();
-		if (str.contains("일치하지 않습니다.")) {
-			System.out.println(str);
+		driver.quit();
+		if (str.contains("일치하지 않습니다.")|| str.contains("잘못")) {
+			return "fail";
 		}else {
-			System.out.println(str + "good!");
+			return "success";
 		}
-
-}
+	}
 }

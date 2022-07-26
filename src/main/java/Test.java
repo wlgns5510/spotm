@@ -2,10 +2,18 @@ public class Test {
 
 	public static void main(String[] args) throws Exception {
 		
+<<<<<<< HEAD
 		Runnable thread1 = new Digit1("방배로 15길 54-16", "죽전");
 		Runnable thread3 = new Digit3("경주", "공주", "해운대", "한옥마을");
 		Runnable thread5 = new Digit5("부산", "홍대","마포","가로수길","제주도");
 		Runnable thread2 = new Digit2("전주","창원", "마산","서울","미아리", "창녕");
+=======
+		Runnable thread1 = new Digit1("방배역", "부산");
+		Runnable thread3 = new Digit3("서울역", "가산디지털단지");
+		Runnable thread2 = new Digit2("전주", "당진" , "창녕");
+		Runnable thread5 = new Digit5("부산", "홍대", "마포", "제주도", "가로수길");
+		Runnable thread4 = new Digit4("파주","일산","수원","영통","부여성","인사동", "가로수길");
+>>>>>>> branch 'master' of https://github.com/ljk0071/spotmate.git
 		Runnable thread6 = new Digit6("철원", "창녕", "양양", "목포");
 		Runnable thread4 = new Digit4("파주","일산","수원","영통","부여성","인사동", "가로수길");
 		
@@ -16,20 +24,26 @@ public class Test {
 		new Thread(thread5).start();
 		new Thread(thread6).start();
 		
-//		NaverDirec nd = new NaverDirec();
-//		String[] arr = nd.stop0("철원", "서울");
-//		String[] arr1 = nd.stop1("철원", "창녕", "양양");
-//		String[] arr2 = nd.stop2("경주", "공주", "해운대", "한옥마을");
-//		String[] arr3 = nd.stop3("부산", "홍대","마포","가로수길","제주도");
-//		String[] arr4 = nd.stop4("전주","창원", "마산","서울","미아리", "창녕");
-//		String[] arr5 = nd.stop5("파주","일산","수원","영통","부여성","인사동", "가로수길");
+//		DriverLicenseAuth dla = new DriverLicenseAuth();
 //		
-//		System.out.println(arr[0].split(" ")[3] + "\n"+arr[1]);
-//		System.out.println(arr1[0].split(" ")[3] + "\n"+arr1[1]);
-//		System.out.println(arr2[0].split(" ")[3] + "\n"+arr2[1]);
-//		System.out.println(arr3[0].split(" ")[3] + "\n"+arr3[1]);
-//		System.out.println(arr4[0].split(" ")[3] + "\n"+arr4[1]);
-//		System.out.println(arr5[0].split(" ")[3] + "\n"+arr5[1]);
+//		System.out.println(dla.LicenseAuth("이준규", "970107", "11-22-013848-10", "DN7PHK"));
+		
+//		NaverDirec nd = new NaverDirec();
+//		ArrayList<String> arr = nd.stop0("철원", "서울");
+//		ArrayList<String> arr1 = nd.stop1("철원", "창녕", "양양");
+//		ArrayList<String> arr2 = nd.stop2("경주", "공주", "해운대", "한옥마을");
+//		ArrayList<String> arr3 = nd.stop3("부산", "홍대","마포","가로수길","제주도");
+//		ArrayList<String> arr4 = nd.stop4("전주","창원", "마산","서울","미아리", "창녕");
+//		ArrayList<String> arr5 = nd.stop5("파주","일산","수원","영통","부여성","인사동", "가로수길");
+//		
+//		for (int i=0;i<3;i++) {
+//			System.out.println(arr.get(i));
+//			System.out.println(arr1.get(i));
+//			System.out.println(arr2.get(i));
+//			System.out.println(arr3.get(i));
+//			System.out.println(arr4.get(i));
+//			System.out.println(arr5.get(i));
+//		}
 	}
 
 }
