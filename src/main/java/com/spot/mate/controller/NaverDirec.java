@@ -25,11 +25,11 @@ public class NaverDirec {
 	private WebDriver setup() {
 		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("disable-gpu", "lang=ko_KR", "window-size=1440,810", "headless",
+		options.addArguments("disable-gpu", "window-size=1280,720", "headless",
 				"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36\r\n");
 		WebDriver driver = new ChromeDriver(options);
-		driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-		driver.get("https://map.naver.com/v5/directions/-/-/-/car?c=14100939.1067141,4548416.6248709,14,0,0,0,dh");
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.get("https://map.naver.com/v5/directions/-/-/-/car?c=14018678.5337212,4268893.5764512,6,0,0,0,dh");
 		return driver;
 	}
 
@@ -56,19 +56,8 @@ public class NaverDirec {
 	}
 
 	private ArrayList<String> capture(WebDriver driver) throws Exception {
-		// 지도가 줌 아웃 되는 시간 기다려줌
-		Thread.sleep(3500);
-		// 스크린샷 캡쳐
-		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-		// 저장 할 때 동일한 이름이 있는지 체크하는 부분
-		int i = 0;
-		File copied = new File("./src/main/resources/static/map" + i + ".png");
-		while (copied.exists()) {
-			i++;
-			copied = new File("./src/main/resources/static/map" + i + ".png");
-		}
-		FileUtils.copyFile(file, copied);
+		// 정보 불러와주는 시간 기다림
+		Thread.sleep(3000);
 
 		// 경로 검색 후 가져온 비용들을 계산해주고 보기 깔끔하게 해주는 부분 
 		// totalFare은 우리가 제시할 금액, benefit은 택시비와의 차이점
@@ -92,33 +81,46 @@ public class NaverDirec {
 		int sum = (taxi + fuel + tallgate);
 		
 		StringBuffer totalFare = new StringBuffer();
-		if ((int) (sum * 0.7) % 10 == 0) {
-			fare = (int) (sum * 0.7);
+		if ((int) (sum * 0.3) % 10 == 0) {
+			fare = (int) (sum * 0.3);
 		} else {
 			for (int j = 1; j < 10; j++) {
-				if ((int) (sum * 0.7) % 10 == j) {
-					fare = (int) (sum * 0.7) + (10 - j);
+				if ((int) (sum * 0.3) % 10 == j) {
+					fare = (int) (sum * 0.3) + (10 - j);
 				}
 			}
 		}
 		totalFare.append(fare);
 		
 		StringBuffer benefit = new StringBuffer();
-		if ((sum - (int) (sum * 0.7)) % 10 == 0) {
-			fare = sum - (int) (sum * 0.7);
+		if ((sum - (int) (sum * 0.3)) % 10 == 0) {
+			fare = sum - (int) (sum * 0.3);
 		} else {
 			for (int j = 1; j < 10; j++) {
-				if ( (sum - (int) (sum * 0.7)) % 10 == j) {
-					fare = (sum - (int) (sum * 0.7)) + (10 - j);
+				if ( (sum - (int) (sum * 0.3)) % 10 == j) {
+					fare = (sum - (int) (sum * 0.3)) + (10 - j);
 				}
 			}
 		}
 		benefit.append(fare);
 		// 비용 계산 및 표기법 정리 후 리스트에 다시 넣어주는 부분
-		arr.remove(0);
+//		arr.remove(0);
 		arr.add(convertMoney(totalFare).toString());
 		arr.add(convertMoney(benefit).toString());
 		arr.add(driver.getCurrentUrl());
+		
+		// 스크린샷 캡쳐
+		Thread.sleep(3000);
+		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+		// 저장 할 때 동일한 이름이 있는지 체크하는 부분
+		int i = 0;
+		File copied = new File("./src/main/resources/static/map" + i + ".png");
+		while (copied.exists()) {
+			i++;
+			copied = new File("./src/main/resources/static/map" + i + ".png");
+		}
+		FileUtils.copyFile(file, copied);
 
 		return arr;
 	}
