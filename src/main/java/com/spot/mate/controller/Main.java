@@ -24,7 +24,7 @@ public class Main {
 	
 	@RequestMapping(value="/", method={RequestMethod.GET, RequestMethod.POST})
 	public String tmap() {
-		return "/index";
+		return "/main4";
 	}
 
 }
