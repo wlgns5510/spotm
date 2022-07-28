@@ -24,7 +24,7 @@ public class Main {
 	
 	@RequestMapping(value="/driver", method={RequestMethod.GET, RequestMethod.POST})
 	public String drive() {
-		return "/mypage/driverHistory";
+		return "/users/driverWriteForm";
 	}
 	@RequestMapping(value="/driverMain", method={RequestMethod.GET, RequestMethod.POST})
 	public String driveMain() {
