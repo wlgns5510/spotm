@@ -32,7 +32,6 @@
 		</ul>
 	</div>
 	<div class="s2 clearfix">
-	<div class="s2form">
 		<form>
 			<p>등록하신 날짜와 출발시간입니다.</p>
 			<div class="fset">
@@ -75,7 +74,6 @@
 			</div>
 		</form>
 		<button>등록하기</button>
-	</div>
 	</div>
 </div>
 <c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>

@@ -46,13 +46,13 @@
 </head>
 <body>
 <div class="map_wrap">
-    <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+    <div id="map" style="width:1440px;height:700px;position:relative;overflow:hidden;"></div>
 
     <div id="menu_wrap" class="bg_white">
         <div class="option">
             <div>
                 <form onsubmit="searchPlaces(); return false;">
-                    키워드 : <input type="text" value="이태원 맛집" id="keyword" size="15"> 
+                    키워드 : <input type="text" value="서울대입구역" id="keyword" size="15"> 
                     <button type="submit">검색하기</button> 
                 </form>
             </div>
@@ -65,6 +65,7 @@
 <div id="clickLatlng"></div>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c6544d76c3912585c75cfd126a875faf&libraries=services,clusterer,drawing"></script>
+<script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 <script>
 // 마커를 담을 배열입니다
 var markers = [];
@@ -141,30 +142,31 @@ function clickPos() {
 	//지도에 클릭 이벤트를 등록합니다
 	//지도를 클릭하면 마지막 파라미터로 넘어온 함수를 호출합니다
 	kakao.maps.event.addListener(map, 'click', function(mouseEvent) {        
-	var latLng = mouseEvent.latLng; 
-	// 마커 위치를 클릭한 위치로 옮깁니다
-	removeMarker();
+		var latLng = mouseEvent.latLng; 
+		// 마커 위치를 클릭한 위치로 옮깁니다
+		removeMarker();
 		searchDetailAddrFromCoords(latLng, function(result, status) {
 		    if (status === kakao.maps.services.Status.OK) {
-		        var detailAddr = !!result[0].road_address ? '<div>도로명주소 : ' + result[0].road_address.address_name + '</div>' : '';
-		        detailAddr += '<div>지번 주소 : ' + result[0].address.address_name + '</div>';
-		        
-		        var content = '<div class="bAddr">' +
-		                        '<span class="title">법정동 주소정보</span>' + 
-		                        detailAddr + 
-		                    '</div>';
-		
 		        // 마커를 클릭한 위치에 표시합니다 
 		        marker.setPosition(latLng);
-		        infowindow.setContent(content);
-		        infowindow.open(map, marker);
-		        // 이 값이 출발지, 경유지, 목적지 중 하나가 될것임
-		        var message = '클릭한 위치의 위도는 ' + latLng.getLat() + ' 이고, ';
-				message += '경도는 ' + latLng.getLng() + ' 입니다';
-				
-				var resultDiv = document.getElementById('clickLatlng'); 
-				resultDiv.innerHTML = message;
-		        console.log(result[0].address.address_name, latLng);
+		        
+		        var search = {};
+		        search.addr = result[0].address.address_name;
+	        	search.lat = latLng.getLat();
+	        	search.lng = latLng.getLng();
+		        $.ajax({
+		    		url : "${pageContext.request.contextPath}/search",		
+		    		type : "post",
+		    		contentType : "application/json",
+		    		data : JSON.stringify(search),
+		    		dataType : "json",
+		    		success : function(result){
+		    			console.log(result);
+		    		},
+		    		error : function(XHR, status, error) {
+		    			console.error(status + " : " + error);
+		    		}
+		    	});
 		    }
 		});
 	});
@@ -195,16 +197,32 @@ function displayPlaces(places) {
         // LatLngBounds 객체에 좌표를 추가합니다
         bounds.extend(placePosition);
         (function(title, addr, pos, idx) {
-        	kakao.maps.event.addListener(marker, 'click', function() {
-        		// 이 값이 출발지, 경유지, 목적지 중 하나가 될것임
-        		console.log(title, addr, pos);
-            });
+			markerClick(marker, title, addr, pos);
         	
             itemEl.onclick =  function () {
             	removeMarker();
             	// 이 값이 출발지, 경유지, 목적지 중 하나가 될것임
-                console.log(title, addr, pos);
+                var search = {};
+                search.title = title;
+		        search.addr = addr;
+	        	search.lat = pos.getLat();
+	        	search.lng = pos.getLng();
+		        $.ajax({
+		    		url : "${pageContext.request.contextPath}/search",		
+		    		type : "post",
+		    		contentType : "application/json",
+		    		data : JSON.stringify(search),
+		    		dataType : "json",
+		    		success : function(result){
+		    			console.log(result);
+		    			$("#keyword").val("방배")
+		    		},
+		    		error : function(XHR, status, error) {
+		    			console.error(status + " : " + error);
+		    		}
+		    	});
                 marker = addMarker(pos, idx);
+                markerClick(marker, title, addr, pos);
             };
 
         })(places[i].place_name, places[i].address_name, placePosition, i);
@@ -319,6 +337,30 @@ function removeAllChildNods(el) {
     while (el.hasChildNodes()) {
         el.removeChild (el.lastChild);
     }
+}
+ 
+function markerClick(marker, title, addr, pos) {
+	kakao.maps.event.addListener(marker, 'click', function() {
+		// 이 값이 출발지, 경유지, 목적지 중 하나가 될것임
+		var search = {};
+        search.title = title;
+        search.addr = addr;
+    	search.lat = pos.getLat();
+    	search.lng = pos.getLng();
+        $.ajax({
+    		url : "${pageContext.request.contextPath}/search",		
+    		type : "post",
+    		contentType : "application/json",
+    		data : JSON.stringify(search),
+    		dataType : "json",
+    		success : function(result){
+    			console.log(result);
+    		},
+    		error : function(XHR, status, error) {
+    			console.error(status + " : " + error);
+    		}
+   		});
+	})
 }
 </script>
 </body>

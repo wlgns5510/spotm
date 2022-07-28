@@ -10,14 +10,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div data-start="${totalInfo.start}" data-end="${totalInfo.end}" data-latlng="${totalInfo.latlng}" id="map" style="width:1440px;height:700px;"></div>
+	<div data-start="${totalInfo.start}" data-end0="${totalInfo.end0}" data-end1="${totalInfo.end1}" data-latlng="${totalInfo.latlng}" id="map" style="width:1440px;height:700px;"></div>
 </body>
 <script>
 //경로 띄워주는 로직
 	var latlng = $("#map").data("latlng");
 	var start = $("#map").data("start");
-	var end = $("#map").data("end");
+	var end0 = $("#map").data("end0");
+	var end1 = $("#map").data("end1");
 	console.log(latlng);
+	console.log(end0);
+	console.log(end1);
 	var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 	mapOption = { 
 	    center: new kakao.maps.LatLng(start[1],start[0]), // 지도의 중심좌표
@@ -31,11 +34,10 @@
 	//테스트 결과 json 파싱해서 for문 반복으로 넣어주면 될듯
 	var linePath = [
 		new kakao.maps.LatLng(start[1], start[0]),
-// 		new kakao.maps.LatLng(37.46912968716258,126.98761047624417)
 		];
 	for (var i=0; i<latlng.length; i++) {
 			if (i == latlng.length) {
-				linePath.push(new kakao.maps.LatLng(end[1],end[0]));
+				linePath.push(new kakao.maps.LatLng(end0[1],end0[0]));
 				break;
 			}
 			linePath.push(new kakao.maps.LatLng(latlng[i+1],latlng[i]),);
