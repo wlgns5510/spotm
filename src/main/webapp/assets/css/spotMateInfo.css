@@ -185,7 +185,7 @@ body {
   text-align: left;
 }
 .v240_10882 {
-  width: 414px;
+  width: 450px;
   color: rgba(47,47,48,1);
   position: absolute;
   top: 2043px;
@@ -220,7 +220,7 @@ body {
   left: 843px;
 }
 .v240_10885 {
-  width: 62px;
+  width: 65px;
   color: rgba(70,84,163,1);
   position: absolute;
   top: 2168px;
@@ -234,7 +234,7 @@ body {
 .v240_10886 {
   width: 708px;
   height: 520px;
-  background: url("../images/v240_10886.png");
+  background: url("../images/v240_10888.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -268,13 +268,13 @@ body {
   overflow: hidden;
 }
 .v240_10889 {
-  width: 681px;
+  width: 800px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 2408px;
   left: 620px;
   font-family: Montserrat;
-  font-weight: Bold Italic;
+  font-weight: bold;
   font-size: 32px;
   opacity: 1;
   text-align: center;
@@ -303,7 +303,7 @@ body {
   color: #fff;
 }
 .v240_10893 {
-  width: 290px;
+  width: 350px;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 14px;
@@ -341,7 +341,7 @@ body {
   top: 85px;
   left: 1113px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: center;
@@ -353,7 +353,7 @@ body {
   top: 85px;
   left: 991px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: center;
@@ -377,7 +377,7 @@ body {
   top: 85px;
   left: 758px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: center;
@@ -389,19 +389,19 @@ body {
   top: 85px;
   left: 629px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: center;
 }
 .v240_10902 {
-  width: 290px;
+  width: 350px;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 14px;
   left: 815px;
   font-family: Noto Sans;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -492,7 +492,7 @@ body {
   top: 164px;
   left: 987px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -546,7 +546,7 @@ body {
 .v240_10917 {
   width: 100%;
   height: 200px;
-  background: rgba(244,251,251,1);
+  background: rgb(192, 192, 192);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -598,25 +598,25 @@ body {
   overflow: hidden;
 }
 .v240_10922 {
-  width: 76px;
+  width: 100px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 21px;
   left: 500px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 20px;
   opacity: 1;
   text-align: left;
 }
 .v240_10923 {
-  width: 109px;
+  width: 130px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 21px;
   left: 1198px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 20px;
   opacity: 1;
   text-align: left;
@@ -628,7 +628,7 @@ body {
   top: 73px;
   left: 510px;
   font-family: Noto Sans;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -640,7 +640,7 @@ body {
   top: 73px;
   left: 641px;
   font-family: Noto Sans;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -664,7 +664,7 @@ body {
   top: 73px;
   left: 991px;
   font-family: Noto Sans;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -676,7 +676,7 @@ body {
   top: 73px;
   left: 872px;
   font-family: Noto Sans;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -710,13 +710,13 @@ body {
   text-align: left;
 }
 .v240_10932 {
-  width: 811px;
+  width: 900px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 205px;
   left: 504px;
   font-family: Noto Sans;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -739,7 +739,7 @@ body {
   top: 78px;
   left: 1254px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: right;
