@@ -15,12 +15,10 @@ a {text-decoration: none;}
 .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
 .clearfix:after {clear: both;}
 #wrap {
-	width: 1440px;
+	width: 1920px;
 	margin: 0px auto;
 }
-#wrap > #header {
-	border-bottom: 1px solid #bfbfbf;
-}
+
 
 /* header */
 #safe {
@@ -35,7 +33,7 @@ a {text-decoration: none;}
 #safe a:hover {text-decoration:underline;}
 #header {
 		width:1440px;
-/* 		margin: 0px 240px 0px 240px; */
+		margin : 0px auto;
 }
 #header > #nav {
 	float: left;
@@ -91,10 +89,10 @@ a {text-decoration: none;}
 #wrap > #footer {
 	float: left;
 	border-top: 1px solid #bfbfbf;
-/* 	background-color: #bfbfbf; */
+ 	background-color: #bfbfbf;
 }
 #footer {
-		width: 1440px;
+		width: 1920px;
 }
 #footer > h1 {
 	float:left;
