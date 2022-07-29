@@ -25,25 +25,25 @@ body {
   overflow: hidden;
 }
 .v240_10867 {
-  width: 349px;
+  width: 380px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 303px;
   left: 369px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: 600;
   font-size: 32px;
   opacity: 1;
   text-align: left;
 }
 .v240_10868 {
-  width: 581px;
+  width: 700px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 303px;
   left: 974px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: 600;
   font-size: 20px;
   opacity: 1;
   text-align: left;
@@ -65,7 +65,7 @@ body {
 .v240_10870 {
   width: 710px;
   height: 760px;
-  background: url("../images/v240_10870.png");
+  background: url("../images/v240_10872.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -73,29 +73,6 @@ body {
   position: absolute;
   top: 564px;
   left: 243px;
-  overflow: hidden;
-}
-.v240_10871 {
-  width: 710px;
-  height: 760px;
-  background: rgba(217,217,217,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v240_10872 {
-  width: 100%;
-  height: 799px;
-  background: url("../images/v240_10872.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 24px;
-  left: 317px;
   overflow: hidden;
 }
 .v240_10873 {
@@ -109,25 +86,25 @@ body {
   overflow: hidden;
 }
 .v240_10874 {
-  width: 253px;
+  width: 300px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 608px;
   left: 1097px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: 600;
   font-size: 32px;
   opacity: 1;
   text-align: left;
 }
 .v240_10875 {
-  width: 282px;
+  width: 320px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 1464px;
   left: 369px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: 600;
   font-size: 32px;
   opacity: 1;
   text-align: left;
@@ -139,7 +116,8 @@ body {
   top: 567px;
   left: 1097px;
   font-family: Montserrat;
-  font-weight: Bold Italic;
+  font-weight: 600;
+  font-style: italic;
   font-size: 32px;
   opacity: 1;
   text-align: left;
@@ -151,13 +129,14 @@ body {
   top: 1423px;
   left: 369px;
   font-family: Montserrat;
-  font-weight: Bold Italic;
+  font-weight: 600;
+  font-style: italic;
   font-size: 32px;
   opacity: 1;
   text-align: left;
 }
 .v240_10878 {
-  width: 401px;
+  width: 600px;
   color: rgba(47,47,48,1);
   position: absolute;
   top: 676px;
@@ -169,7 +148,7 @@ body {
   text-align: left;
 }
 .v240_10879 {
-  width: 375px;
+  width: 450px;
   color: rgba(47,47,48,1);
   position: absolute;
   top: 1532px;
@@ -181,13 +160,13 @@ body {
   text-align: left;
 }
 .v240_10880 {
-  width: 282px;
+  width: 350px;
   color: rgba(30,30,30,1);
   position: absolute;
   top: 1975px;
   left: 753px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: 600;
   font-size: 32px;
   opacity: 1;
   text-align: left;
@@ -199,7 +178,8 @@ body {
   top: 1934px;
   left: 753px;
   font-family: Montserrat;
-  font-weight: Bold Italic;
+  font-weight: 600;
+  font-style:  Italic;
   font-size: 32px;
   opacity: 1;
   text-align: left;
