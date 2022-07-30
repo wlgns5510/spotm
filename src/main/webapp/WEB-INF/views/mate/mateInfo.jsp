@@ -12,7 +12,7 @@
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/spotMateMain.css" rel="stylesheet" />
-<link href="${pageContext.request.contextPath}/assets/css/spotMateInfo.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}/assets/css/mateInfo.css" rel="stylesheet" />
 
 <body>
 <div class="v90_7928">
