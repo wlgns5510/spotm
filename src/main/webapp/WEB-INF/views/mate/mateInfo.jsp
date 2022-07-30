@@ -6,9 +6,9 @@
 <meta charset="UTF-8">
 <title>메이트인포</title>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap?after" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap?after" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Inter&display=swap?after" rel="stylesheet" />
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/spotMateMain.css" rel="stylesheet" />
