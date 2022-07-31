@@ -15,7 +15,9 @@
 <link href="${pageContext.request.contextPath}/assets/css/mateMain.css" rel="stylesheet" />
 
 <body>
+<!-- wrap -->
 <div class="v91_8251">
+	<!-- header -->
 	<div class="v240_10890">
 		<div class="v240_10891"></div>
 		<div class="name"></div>
@@ -37,156 +39,169 @@
 			<span class="v240_10910">joyunju12345</span>
 			<span class="v240_10911">SERVICE</span>
 			<span class="v240_10912">PRODUCT</span>
+		</div>	
+	</div>
+	<!-- //header -->
+	
+	<!-- content -->
+	<div class="content">
+		<!-- banner1 -->
+		<div class="banner1">
+			<div class="v240_11505"></div>
+			<div class="v240_11506">
+				<span class="v240_11507">FIND YOUR MATE</span>
+				<div class="v240_11508"></div>
+				<span class="v240_11509">Location</span><span class="v240_11510">목적지를
+					입력해주세요</span><span class="v240_11511">Check In</span><span
+					class="v240_11512">Add Dates</span><span class="v240_11513">Check
+					Out </span><span class="v240_11514">Add Dates </span><span
+					class="v240_11515">People</span><span class="v240_11516">Add
+					Guests</span>
+				<div class="v240_11517">
+					<div class="v240_11518"></div>
+					<div class="v240_11519"></div>
+				</div>		
+			</div>
+		</div>
+		<!-- //banner1 -->
+		
+		<div class="v240_11258"></div>
+		<div class="v240_11259"></div>
+		<div class="v240_11260"></div>
+		<div class="v240_11261"></div>
+		<span class="v240_11262">Driver Joyunju</span>
+		<span class="v240_11263">Driver Joyunju</span>
+		<span class="v240_11264">Driver Joyunju</span>
+		<span class="v240_11265">Driver Joyunju</span>
+		<span class="v240_11266">Driver Joyunju</span>
+		<span class="v240_11267">Driver Joyunju</span>
+		<span class="v240_11268">Driver Joyunju</span>
+		<span class="v240_11269">Driver Joyunju</span>
+		<span class="v240_11270">Driver Joyunju</span>
+		<span class="v240_11271">Driver Joyunju</span>
+		<span class="v240_11272">Driver Joyunju</span>
+		<span class="v240_11273">Driver Joyunju</span>
+		<span class="v240_11274">서울역 → 강릉</span>
+		<span class="v240_11275">서울역 → 강릉</span>
+		<span class="v240_11276">서울역 → 강릉</span>
+		<span class="v240_11277">서울역 → 강릉</span>
+		<span class="v240_11278">서울역 → 강릉</span>
+		<span class="v240_11279">서울역 → 강릉</span>
+		<span class="v240_11280">서울역 → 강릉</span>
+		<span class="v240_11281">서울역 → 강릉</span>
+		<span class="v240_11282">서울역 → 강릉</span>
+		<span class="v240_11283">서울역 → 강릉</span>
+		<span class="v240_11284">서울역 → 강릉</span>
+		<span class="v240_11285">서울역 → 강릉</span>
+		<span class="v240_11286">일정 07.25 - 07.26</span>
+		<span class="v240_11287">일정 07.25 - 07.26</span>
+		<span class="v240_11288">일정 07.25 - 07.26</span>
+		<span class="v240_11289">일정 07.25 - 07.26</span>
+		<span class="v240_11290">일정 07.25 - 07.26</span>
+		<span class="v240_11291">일정 07.25 - 07.26</span>
+		<span class="v240_11292">일정 07.25 - 07.26</span>
+		<span class="v240_11293">일정 07.25 - 07.26</span>
+		<span class="v240_11294">일정 07.25 - 07.26</span>
+		<span class="v240_11295">일정 07.25 - 07.26</span>
+		<span class="v240_11296">일정 07.25 - 07.26</span>
+		<span class="v240_11297">일정 07.25 - 07.26</span>
+		<span class="v240_11298">2</span>
+		<span class="v240_11299">2</span>
+		<span class="v240_11300">2</span>
+		<span class="v240_11301">2</span>
+		<span class="v240_11302">2</span>
+		<span class="v240_11303">2</span>
+		<span class="v240_11304">2</span>
+		<span class="v240_11305">2</span>
+		<span class="v240_11306">2</span>
+		<span class="v240_11307">2</span>
+		<span class="v240_11308">2</span>
+		<span class="v240_11309">2</span>
+		<span class="v240_11310">가능</span>
+		<span class="v240_11311">가능</span>
+		<span class="v240_11312">가능</span>
+		<span class="v240_11313">가능</span>
+		<span class="v240_11314">가능</span>
+		<span class="v240_11315">가능</span>
+		<span class="v240_11316">가능</span>
+		<span class="v240_11317">가능</span>
+		<span class="v240_11318">가능</span>
+		<span class="v240_11319">가능</span>
+		<span class="v240_11320">가능</span>
+		<span class="v240_11321">가능</span>
+		<div class="v240_11322">
+		</div>
+		<div class="v240_11330">
+		</div>
+		<div class="v240_11338">
+		</div>
+		<div class="v240_11346">
+		</div>
+		<div class="v240_11354">
+		</div>
+		<div class="v240_11362">
+		</div>
+		<div class="v240_11370">
+		</div>
+		<div class="v240_11378">
+		</div>
+		<div class="v240_11386">
+		</div>
+		<div class="v240_11394">
+		</div>
+		<div class="v240_11402">
+		</div>
+		<div class="v240_11410">
+		</div>
+		<div class="v240_11418">
+		</div>
+		<div class="v240_11424">
+		</div>
+		<div class="v240_11430">
+		</div>
+		<div class="v240_11436">
+		</div>
+		<div class="v240_11442">
+		</div>
+		<div class="v240_11448">
+		</div>
+		<div class="v240_11454">
+		</div>
+		<div class="v240_11460">
+		</div>
+		<div class="v240_11466">
+		</div>
+		<div class="v240_11472">
+		</div>
+		<div class="v240_11478">
+		</div>
+		<div class="v240_11484">
+		</div>
+		
+		<div class="v240_11490">
+			<div class="v240_11491"></div>
+			<div class="v240_11492"></div>
+		</div>
+		<div class="v240_11493">
+			<div class="v240_11494"></div>
+			<div class="v240_11495"></div>
+		</div>
+		<div class="v240_11496">
+			<div class="v240_11497"></div>
+			<div class="v240_11498"></div>
+		</div>
+		<div class="v240_11499">
+			<div class="v240_11500"></div>
+			<div class="v240_11501"></div>
+		</div>
+		<div class="v240_11502">
+			<div class="v240_11503"></div>
+			<div class="v240_11504"></div>
 		</div>
 	</div>
-	<div class="v240_11258"></div>
-	<div class="v240_11259"></div>
-	<div class="v240_11260"></div>
-	<div class="v240_11261"></div>
-	<span class="v240_11262">Driver Joyunju</span>
-	<span class="v240_11263">Driver Joyunju</span>
-	<span class="v240_11264">Driver Joyunju</span>
-	<span class="v240_11265">Driver Joyunju</span>
-	<span class="v240_11266">Driver Joyunju</span>
-	<span class="v240_11267">Driver Joyunju</span>
-	<span class="v240_11268">Driver Joyunju</span>
-	<span class="v240_11269">Driver Joyunju</span>
-	<span class="v240_11270">Driver Joyunju</span>
-	<span class="v240_11271">Driver Joyunju</span>
-	<span class="v240_11272">Driver Joyunju</span>
-	<span class="v240_11273">Driver Joyunju</span>
-	<span class="v240_11274">서울역 → 강릉</span>
-	<span class="v240_11275">서울역 → 강릉</span>
-	<span class="v240_11276">서울역 → 강릉</span>
-	<span class="v240_11277">서울역 → 강릉</span>
-	<span class="v240_11278">서울역 → 강릉</span>
-	<span class="v240_11279">서울역 → 강릉</span>
-	<span class="v240_11280">서울역 → 강릉</span>
-	<span class="v240_11281">서울역 → 강릉</span>
-	<span class="v240_11282">서울역 → 강릉</span>
-	<span class="v240_11283">서울역 → 강릉</span>
-	<span class="v240_11284">서울역 → 강릉</span>
-	<span class="v240_11285">서울역 → 강릉</span>
-	<span class="v240_11286">일정 07.25 - 07.26</span>
-	<span class="v240_11287">일정 07.25 - 07.26</span>
-	<span class="v240_11288">일정 07.25 - 07.26</span>
-	<span class="v240_11289">일정 07.25 - 07.26</span>
-	<span class="v240_11290">일정 07.25 - 07.26</span>
-	<span class="v240_11291">일정 07.25 - 07.26</span>
-	<span class="v240_11292">일정 07.25 - 07.26</span>
-	<span class="v240_11293">일정 07.25 - 07.26</span>
-	<span class="v240_11294">일정 07.25 - 07.26</span>
-	<span class="v240_11295">일정 07.25 - 07.26</span>
-	<span class="v240_11296">일정 07.25 - 07.26</span>
-	<span class="v240_11297">일정 07.25 - 07.26</span>
-	<span class="v240_11298">2</span>
-	<span class="v240_11299">2</span>
-	<span class="v240_11300">2</span>
-	<span class="v240_11301">2</span>
-	<span class="v240_11302">2</span>
-	<span class="v240_11303">2</span>
-	<span class="v240_11304">2</span>
-	<span class="v240_11305">2</span>
-	<span class="v240_11306">2</span>
-	<span class="v240_11307">2</span>
-	<span class="v240_11308">2</span>
-	<span class="v240_11309">2</span>
-	<span class="v240_11310">가능</span>
-	<span class="v240_11311">가능</span>
-	<span class="v240_11312">가능</span>
-	<span class="v240_11313">가능</span>
-	<span class="v240_11314">가능</span>
-	<span class="v240_11315">가능</span>
-	<span class="v240_11316">가능</span>
-	<span class="v240_11317">가능</span>
-	<span class="v240_11318">가능</span>
-	<span class="v240_11319">가능</span>
-	<span class="v240_11320">가능</span>
-	<span class="v240_11321">가능</span>
-	<div class="v240_11322">
-	</div>
-	<div class="v240_11330">
-	</div>
-	<div class="v240_11338">
-	</div>
-	<div class="v240_11346">
-	</div>
-	<div class="v240_11354">
-	</div>
-	<div class="v240_11362">
-	</div>
-	<div class="v240_11370">
-	</div>
-	<div class="v240_11378">
-	</div>
-	<div class="v240_11386">
-	</div>
-	<div class="v240_11394">
-	</div>
-	<div class="v240_11402">
-	</div>
-	<div class="v240_11410">
-	</div>
-	<div class="v240_11418">
-	</div>
-	<div class="v240_11424">
-	</div>
-	<div class="v240_11430">
-	</div>
-	<div class="v240_11436">
-	</div>
-	<div class="v240_11442">
-	</div>
-	<div class="v240_11448">
-	</div>
-	<div class="v240_11454">
-	</div>
-	<div class="v240_11460">
-	</div>
-	<div class="v240_11466">
-	</div>
-	<div class="v240_11472">
-	</div>
-	<div class="v240_11478">
-	</div>
-	<div class="v240_11484">
-	</div>
+	<!-- //content -->
 	
-	<div class="v240_11490">
-		<div class="v240_11491"></div>
-		<div class="v240_11492"></div>
-	</div>
-	<div class="v240_11493">
-		<div class="v240_11494"></div>
-		<div class="v240_11495"></div>
-	</div>
-	<div class="v240_11496">
-		<div class="v240_11497"></div>
-		<div class="v240_11498"></div>
-	</div>
-	<div class="v240_11499">
-		<div class="v240_11500"></div>
-		<div class="v240_11501"></div>
-	</div>
-	<div class="v240_11502">
-		<div class="v240_11503"></div>
-		<div class="v240_11504"></div>
-	</div>
-	<div class="v240_11505"></div>
-	<div class="v240_11506">
-		<span class="v240_11507">FIND YOUR MATE</span>
-		<div class="v240_11508"></div>
-		<span class="v240_11509">Location</span><span class="v240_11510">목적지를
-			입력해주세요</span><span class="v240_11511">Check In</span><span
-			class="v240_11512">Add Dates</span><span class="v240_11513">Check
-			Out </span><span class="v240_11514">Add Dates </span><span
-			class="v240_11515">People</span><span class="v240_11516">Add
-			Guests</span>
-		<div class="v240_11517">
-			<div class="v240_11518"></div>
-			<div class="v240_11519"></div>
-		</div>		
-	</div>
+	
 	<div class="v240_11524">
 		<div class="v240_11525"></div>
 		<div class="v240_11526"></div>
@@ -243,14 +258,7 @@
 			<div class="v240_10936"></div>
 		</div>
 	</div>	
-
-
-
-	
-	
-	
-	
-
 </div>
+<!-- //wrap -->
 </body>
 </html>
