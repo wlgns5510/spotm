@@ -14,18 +14,62 @@ a {text-decoration: none;}
 .clearfix{*zoom:1;}
 .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
 .clearfix:after {clear: both;}
-
+button {
+	border-style: none;
+}
 #wrap {
 	width: 1920px;
 	margin: 0px auto;
+}
+.mateList {
+	float: left;
+	margin: 0px 0px 90px 0px;
 }
 #header {
   width: 1920px;
   height: 200px;
   background: rgba(255,255,255,1);
 }
+#content {
+  width: 1920px;
+  height: 420px;
+  background: rgba(214,228,247,1);
+  padding: 200px 450px 10px 450px;
+}
+#content2 {
+	width: 1440px;
+	height: 2300px;
+	background: rgba(255,255,255,1);
+	margin: 0px 240px 0px 240px;
+	
+}
 body {
   font-size: 14px;
+}
+.sel1 {
+	border-right : 1px solid #C2C6CC;
+	float: left;
+	padding: 0px 80px 0px 0px;
+}
+.sel2 {
+	border-right : 1px solid #C2C6CC;
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+.sel3 {
+	border-right : 1px solid #C2C6CC;
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+.sel4 {
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+.gap{
+  width:1440px;
+  margin: 0px 240px 0px 240px;
+  height:172px;
+  background: rgba(255,255,255,1);
 }
 .v91_8251 {
   width: 100%;
@@ -96,14 +140,10 @@ body {
 .v240_11262 {
   width: 118px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 1113px;
-  left: 251px;
   font-family: Montserrat;
   font-weight: normal;
   font-size: 16px;
-  opacity: 1;
-  text-align: left;
+  margin: 0px 85px 0px 0px;
 }
 .v240_11263 {
   width: 118px;
@@ -240,14 +280,10 @@ body {
 .v240_11274 {
   width: 150px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 1140px;
-  left: 251px;
   font-family: Noto Sans;
   font-weight: Bold;
   font-size: 20px;
-  opacity: 1;
-  text-align: left;
+  margin: 0px 73px 0px 0px;
 }
 .v240_11275 {
   width: 150px;
@@ -384,14 +420,9 @@ body {
 .v240_11286 {
   width: 135px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 1114px;
-  left: 452px;
   font-family: Noto Sans;
   font-weight: Regular;
   font-size: 16px;
-  opacity: 1;
-  text-align: left;
 }
 .v240_11287 {
   width: 135px;
@@ -528,14 +559,9 @@ body {
 .v240_11298 {
   width: 10px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 1144px;
-  left: 484px;
   font-family: Montserrat;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 16px;
-  opacity: 1;
-  text-align: left;
 }
 .v240_11299 {
   width: 10px;
@@ -672,14 +698,9 @@ body {
 .v240_11310 {
   width: 50px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 1144px;
-  left: 553px;
   font-family: Montserrat;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 16px;
-  opacity: 1;
-  text-align: left;
 }
 .v240_11311 {
   width: 50px;
@@ -817,11 +838,6 @@ body {
   width: 27px;
   height: 27px;
   background-color: #ff00ff;
-  opacity: 1;
-  position: absolute;
-  top: 1140px;
-  left: 452px;
-  overflow: hidden;
 }
 .v240_11323 {
   width: 18px;
@@ -1805,11 +1821,7 @@ body {
   width: 27px;
   height: 27px;
   background-color: #ff00ff;
-  opacity: 1;
-  position: absolute;
-  top: 1140px;
-  left: 524px;
-  overflow: hidden;
+  margin: 0px 0px 0px 25px;
 }
 .v240_11419 {
   width: 4px;
@@ -2708,33 +2720,22 @@ body {
 .v240_11507 {
   width: 367px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
   font-family: Montserrat;
   font-weight: Bold;
   font-size: 40px;
-  opacity: 1;
-  text-align: left;
+
 }
 .v240_11508 {
   width: 950px;
   height: 70px;
   background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 72px;
-  left: 0px;
-  overflow: hidden;
+  padding: 15px 5px 10px 30px;
 }
 .v240_11509 {
   width: 80px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 88px;
-  left: 30px;
   font-family: Montserrat;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -2742,23 +2743,24 @@ body {
 .v240_11510 {
   width: 223px;
   color: rgba(194,198,204,1);
-  position: absolute;
-  top: 108px;
-  left: 31px;
   font-family: Montserrat;
   font-weight: SemiBold;
   font-size: 14px;
   opacity: 1;
   text-align: left;
 }
+.v240_11508  input::placeholder {
+	color: #C2C6CC;
+}
+.v240_11508  input {
+	border: none;
+}
+
 .v240_11511 {
   width: 80px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 88px;
-  left: 296px;
   font-family: Montserrat;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -2778,11 +2780,8 @@ body {
 .v240_11513 {
   width: 80px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 88px;
-  left: 438px;
   font-family: Montserrat;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -2802,11 +2801,8 @@ body {
 .v240_11515 {
   width: 80px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 88px;
-  left: 604px;
   font-family: Montserrat;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -2840,11 +2836,9 @@ body {
   width: 54px;
   height: 54px;
   background: rgba(70,84,163,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   border-radius: 50%;
+  float: right;
+  
 }
 .v240_11519 {
   width: 24px;
@@ -2917,7 +2911,7 @@ body {
   left: 243px;
   overflow: hidden;
 }
-.v240_11528 {
+.list1 {
   width: 340px;
   height: 330px;
   background: url("../images/v240_11529.png");
@@ -2925,45 +2919,51 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  overflow: hidden;
+  margin: 0px 24px 0px 0px;
+}
+.list2 {
+  width: 340px;
+  height: 330px;
+  background: url("../images/v240_11495.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin: 0px 24px 0px 0px;
 }
 
-.v240_11530 {
+.list3 {
   width: 340px;
   height: 330px;
-  background: url("../images/v240_11530.png");
+  background: url("../images/v240_11526.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 764px;
-  left: 1337px;
-  overflow: hidden;
+   border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin: 0px 24px 0px 0px;
 }
-.v240_11531 {
+.list4 {
   width: 340px;
   height: 330px;
-  background: url("../images/v240_11532.png");
+  background: url("../images/v240_11492.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  overflow: hidden;
 }
 .v240_11533 {
   width: 100%;
@@ -3187,55 +3187,60 @@ body {
   width: 310px;
   height: 65px;
   background: rgba(70,84,163,1);
-  opacity: 1;
-  position: absolute;
-  top: 2271px;
-  left: 805px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   overflow: hidden;
+  margin: 30px 0px 0px 560px;
 }
 .v240_11557 {
-  width: 80px;
+  width: 100px;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 2287px;
-  left: 927px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: Bold;
   font-size: 24px;
-  opacity: 1;
-  text-align: left;
+  margin: 0px 0px 10px 0px;
+}
+.v240_10918 {
+  width: 137px;
+  color: rgba(30,30,30,1);
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 30px; 
+}
+#banner {
+  width: 1920px;
+  height: 200px;
+  background: rgba(244,251,251,1);
+  padding: 70px 700px 70px 900px;
 }
 .v240_11558 {
   width: 1435px;
   height: 55px;
   background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 678px;
-  left: 242px;
+  margin: 60px 0px 50px 0px;
   border: 1px solid rgba(217,217,217,1);
   overflow: hidden;
+  position: relative;
 }
 .v240_11559 {
-  width: 12px;
+  width: 19px;
   height: 19px;
   background: rgba(0,0,0,1);
   opacity: 1;
   position: absolute;
-  top: 711px;
-  left: 1620px;
+  top: 19px;
+  left: 1370px;
   transform: rotate(-90deg);
 }
+
 .v240_11560 {
   width: 90px;
   color: rgba(91,91,91,1);
   position: absolute;
-  top: 694px;
-  left: 298px;
+  top: 17px;
+  left: 30px;
   font-family: Noto Sans;
   font-weight: Regular;
   font-size: 16px;
@@ -3246,8 +3251,8 @@ body {
   width: 120px;
   color: rgba(73,85,159,1);
   position: absolute;
-  top: 694px;
-  left: 420px;
+  top: 17px;
+  left: 150px;
   font-family: Noto Sans;
   font-weight: SemiBold;
   font-size: 16px;
@@ -3258,8 +3263,8 @@ body {
   width: 90px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 693px;
-  left: 568px;
+  top: 17px;
+  left: 300px;
   font-family: Noto Sans;
   font-weight: normal;
   font-size: 16px;
@@ -3270,8 +3275,8 @@ body {
   width: 195px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 695px;
-  left: 683px;
+  top: 17px;
+  left: 420px;
   font-family: Noto Sans;
   font-weight: normal;
   font-size: 16px;
@@ -3282,8 +3287,8 @@ body {
   width: 90px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 695px;
-  left: 901px;
+  top: 17px;
+  left: 645px;
   font-family: Noto Sans;
   font-weight: normal;
   font-size: 16px;
@@ -3294,8 +3299,8 @@ body {
   width: 125px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 695px;
-  left: 1023px;
+  top: 17px;
+  left: 765px;
   font-family: Noto Sans;
   font-weight: normal;
   font-size: 16px;
@@ -3306,8 +3311,8 @@ body {
   width: 105px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 695px;
-  left: 1178px;
+  top: 17px;
+  left: 920px;
   font-family: Noto Sans;
   font-weight: normal;
   font-size: 16px;
@@ -3318,8 +3323,8 @@ body {
   width: 145px;
   color: rgba(72,72,72,1);
   position: absolute;
-  top: 695px;
-  left: 1312px;
+  top: 17px;
+  left: 1060px;
   font-family: Noto Sans;
   font-weight: normal;
   font-size: 16px;
