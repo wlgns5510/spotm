@@ -1,5 +1,28 @@
-* {
-  box-sizing: border-box;
+@charset "UTF-8";
+*{margin:0;padding:0;font:inherit;color:inherit;}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+}
+*, :after, :before {box-sizing:border-box;flex-shrink:0;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+table {border-collapse:collapse;border-spacing:0}
+ul, ol {list-style-type: none;}
+a {text-decoration: none;}
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+#wrap {
+	width: 1920px;
+	margin: 0px auto;
+}
+#header {
+  width: 1920px;
+  height: 200px;
+  background: rgba(255,255,255,1);
 }
 body {
   font-size: 14px;
