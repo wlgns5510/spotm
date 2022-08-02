@@ -11,36 +11,36 @@
 <link href="https://fonts.googleapis.com/css?family=Inter&display=swap?" rel="stylesheet" />
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
-<link href="${pageContext.request.contextPath}/assets/css/mateInfo.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/common.css" rel="stylesheet" />
 
 <body>
-<!-- wrap -->
-<div id="wrap">
+<!-- mateInfo_wrap -->
+<div class="mateInfo_wrap">
 
 	<!-- header -->
-	<div class="top_banner">	
-	</div>
+	<header>
+	</header>	
 	<!-- //header -->
 	
 	<!-- banner1 -->
-	<div id="banner1">
+	<div class="mateInfo_banner1">
 		<div class="pictogrem01">
 		</div>
 		<h2>어떻게 가야할까?<br>나의 이동 메이트 찾아보기</h2>
 		<h3>출발지에서 도착지까지 모든 장소의 이동을 함께하고<br>스팟에 도착하면 각자의 일정을 자유롭게 즐기실 수 있는 서비스입니다.</h3>
 	</div>
-	<!-- //banner1 -->
+	<!-- //mateInfo_banner1 -->
 	
 	<div class="gap">
 	</div>
 
-	<!-- content -->
-	<div id="content" class="clearfix">
+	<!-- mateInfo_content -->
+	<div class="mateInfo_content clearfix">
 		<div class="picture1">
 		</div>
 		
-		<div class="page1">
+		<div class="mateInfo_page1">
 			<h2>01</h2>
 			<h3>장거리 이동도 쉽게</h3>			
 			<p>
@@ -52,7 +52,7 @@
 		
 		<div class="picture2"></div>
 		
-		<div class="page2">
+		<div class="mateInfo_page2">
 			<h2>02</h2>
 			<h3>이동이 자유로운 여행</h3>
 			
@@ -63,14 +63,14 @@
 			</p>
 		</div>
 	</div>
-	<!-- //content -->
+	<!-- //mateInfo_content -->
 	
 	<div class="gap">
 	</div>
 	
-	<!-- banner2 -->
-	<div id="banner2">
-		<div class="page3">
+	<!-- mateInfo_banner2 -->
+	<div class="mateInfo_banner2">
+		<div class="mateInfo_page3">
 			<h2>03</h2>
 			<h3>누구나 자유롭게 이동</h3>
 			<p>
@@ -85,32 +85,32 @@
 					
 		</button>
 	</div>
-	<!-- //banner2 -->
+	<!-- //mateInfo_banner2 -->
 	
-	<!-- content2 -->
-	<div id="content2">
-		<p class="page4">
+	<!-- mateInfo_content2 -->
+	<div class="mateInfo_content2">
+		<p class="mateInfo_page4">
 		택시를 부르기 어려운 곳이여도,<br>
 		운전을 오래 하지 않아 렌트가 부담스러울 때<br><br>
 		같이 이동할 수 있는 메이트만 있다면,<br>
 		누구나 언제 어디서든 자유롭게 이동할 수 있습니다.
 		</p>
 	</div>
-	<!-- //content2 -->
+	<!-- //mateInfo_content2 -->
 	
-	<!-- banner3 -->
-	<div id="banner3">
-		<h2 class="v240_10918">BANNER</h2>
+	<!-- mateInfo_banner3 -->
+	<div class="mateInfo_banner3">
+		<span>BANNER</span>
 	</div>
 	<!-- //banner3 -->
 	
 	
 	<!-- footer -->
-	<div id=footer>	
-	</div>
+		<footer>	
+		</footer>
 	<!-- //footer -->
 	
 </div>
-<!-- //wrap -->
+<!-- //mateInfo_wrap -->
 </body>
 </html>

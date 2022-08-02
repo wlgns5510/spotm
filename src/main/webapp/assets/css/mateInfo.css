@@ -3,10 +3,7 @@
 .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
 .clearfix:after {clear: both;}
 
-body {
-  font-size: 14px;
-}
-wrap {
+.mateInfo_wrap {
   width: 1920px;
   height: 3445px;
   background: rgba(255,255,255,1);
@@ -17,20 +14,20 @@ header {
   height: 200px;
   background: rgba(255,255,255,1);
 }
-#banner1 {
+.mateInfo_banner1 {
   width: 1920px;
   height: 210px;
   background: rgba(245,245,245,1);
 }
-#banner1 h2 {
+.mateInfo_banner1 h2 {
   color: rgba(30,30,30,1);
   font-family: Noto Sans;
-  font-weight: 600;
   font-size: 32px; 
+  font-weight: bold;
   float: left;
-  margin: 100px 0px 0px 30px;
+  margin: 110px 0px 0px 30px;
 }
-#banner1 h3 {
+.mateInfo_banner1 h3 {
   color: rgba(30,30,30,1);
   font-family: Noto Sans;
   font-weight: 600;
@@ -38,83 +35,7 @@ header {
   float: right;
   margin: 100px 320px 0px 0px;
 }
-#banner2 {
-  width: 1920px;
-  height: 420px;
-  background: rgba(217,217,217,1);
-}
-#banner3 {
-  width: 1920px;
-  height: 200px;
-  background: rgba(244,251,251,1);
-  padding: 70px 700px 70px 900px;
-}
-.gap{
-  width:1920px;
-  height:172px;
-  background: rgba(255,255,255,1);
-}
-#content {
-  width: 1440px;
-  margin: 0px 240px 0px 240px;
-  background: rgba(255,255,255,1);
-}
-#content2 {
-  width: 1920px;
-  height: 700px;
-  background: rgba(255,255,255,1);
-  padding: 200px 30px 10px 565px;
-}
-.page1 {
-  margin: 0px 0px 0px 100px;
-  float: right;
-}
-.page1 h2 {
-  width: 35px;
-  color: rgba(30,30,30,1);
-  font-family: Montserrat;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 32px;
-}
-.page1 h3 {
-  width: 300px;
-  color: rgba(30,30,30,1);
-  font-family: Noto Sans;
-  font-weight: 600;
-  font-size: 32px;
-}
-.page2 {
-  margin: 100px 0px 0px 120px;
-  float: left;
-}
-.page2 h3 {
-  width: 320px;
-  color: rgba(30,30,30,1);
-  font-family: Noto Sans;
-  font-weight: 600;
-  font-size: 32px;
-}
-.page2 h2 {
-  width: 41px;
-  color: rgba(30,30,30,1);
-  font-family: Montserrat;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 32px;
-}
-.page3 {
-  padding: 65px 0px 0px 770px;
-}
-.page4 {
-  width: 800px;
-  color: rgba(0,0,0,1);
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 32px;
-  text-align: center;
-}
-.pictogrem01 {
+.mateInfo_banner1 .pictogrem01 {
   width: 90px;
   height: 90px;
   background: rgba(211,211,211,1);
@@ -124,23 +45,115 @@ header {
   border-bottom-right-radius: 50px;
   float: left;
   margin: 100px 0px 0px 240px;
-  padding: 13px;
 }
-.pictogrem02 {
-	width: 20px;
-	height: 20px;
-	background-color: #000000;
-	float: right;
-	margin: 0px 10px 0px 0px;
+.mateInfo_banner2 {
+  width: 1920px;
+  height: 420px;
+  background: rgba(217,217,217,1);
 }
-.picture1 {
+.mateInfo_banner3 {
+  width: 1920px;
+  height: 200px;
+  background: rgba(244,251,251,1);
+}
+.gap{
+  width:1920px;
+  height:172px;
+  background: rgba(255,255,255,1);
+}
+.mateInfo_content {
+  width: 1440px;
+  margin: 0px 240px 0px 240px;
+  background: rgba(255,255,255,1);
+}
+.mateInfo_content .picture1 {
   width: 710px;
   height: 760px;
   background: url("../images/v240_10872.png"); 
   background-position: center center;
   float: left;  
 }
-.picture2 {
+.mateInfo_content2 {
+  width: 1920px;
+  height: 700px;
+  background: rgba(255,255,255,1);
+  padding: 200px 30px 10px 565px;
+}
+.mateInfo_page1 {
+  margin: 0px 0px 0px 100px;
+  float: right;
+}
+.mateInfo_page1 h2 {
+  width: 35px;
+  color: rgba(30,30,30,1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 32px;
+}
+.mateInfo_page1 h3 {
+  width: 300px;
+  color: rgba(30,30,30,1);
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 32px;
+}
+.mateInfo_page1 p {
+  width: 600px;
+  color: rgba(47,47,48,1);
+  font-family: Noto Sans;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 30px 0px 0px 0px;
+}
+.mateInfo_page2 {
+  margin: 100px 0px 0px 120px;
+  float: left;
+}
+.mateInfo_page2 h3 {
+  width: 320px;
+  color: rgba(30,30,30,1);
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 32px;
+}
+.mateInfo_page2 h2 {
+  width: 41px;
+  color: rgba(30,30,30,1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 32px;
+}
+.mateInfo_page2 p {
+  width: 450px;
+  color: rgba(47,47,48,1);
+  font-family: Noto Sans;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 30px 0px 0px 0px;
+}
+.mateInfo_banner2 .mateInfo_page3 {
+  padding: 65px 0px 0px 770px;
+}
+.mateInfo_content2 .mateInfo_page4 {
+  width: 800px;
+  color: rgba(0,0,0,1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+.mateInfo_banner2 .mateMainGo .pictogrem02 {
+	width: 20px;
+	height: 20px;
+	background-color: #000000;
+	float: right;
+	margin: 0px 10px 0px 0px;
+}
+
+.mateInfo_content .picture2 {
   width: 710px;
   height: 546px;
   background: url("../images/v240_10888.png");
@@ -150,30 +163,16 @@ header {
   float: right;
   margin: 400px 0px 0px 0px;
 }
-.page1 p {
-  width: 600px;
-  color: rgba(47,47,48,1);
-  font-family: Noto Sans;
-  font-weight: normal;
-  font-size: 18px;
-  margin: 30px 0px 0px 0px;
-}
-.page2 p {
-  width: 450px;
-  color: rgba(47,47,48,1);
-  font-family: Noto Sans;
-  font-weight: normal;
-  font-size: 18px;
-  margin: 30px 0px 0px 0px;
-}
-.page3 h3 {
+
+
+.mateInfo_banner2 .mateInfo_page3 h3 {
   width: 350px;
   color: rgba(30,30,30,1);
   font-family: Noto Sans;
   font-weight: 600;
   font-size: 32px;
 }
-.page3 h2 {
+.mateInfo_banner2 .mateInfo_page3 h2 {
   width: 41px;
   color: rgba(30,30,30,1);
   font-family: Montserrat;
@@ -181,7 +180,7 @@ header {
   font-style:  Italic;
   font-size: 32px;
 }
-.page3 p {
+.mateInfo_banner2 .mateInfo_page3 p {
   width: 450px;
   color: rgba(47,47,48,1);
   font-family: Noto Sans;
@@ -189,7 +188,7 @@ header {
   font-size: 18px;
   margin: 30px 0px 0px 0px;
 }
-.mateMainGo {
+.mateInfo_banner2 .mateMainGo {
   width: 125px;
   height: 45px;
   background: rgba(249,250,251,1);
@@ -201,14 +200,14 @@ header {
   padding: 11px 0px 12px 0px;
   border-style: none;
 }
-.mateMainGo h2 {
+.mateInfo_banner2 .mateInfo_page3 .mateMainGo h2 {
   width: 90px;
   color: rgba(70,84,163,1);
   font-family: Noto Sans;
   font-weight: bold;
   font-size: 17px;
 }
-#banner3 h2 {
+.mateInfo_banner3 span {
   width: 137px;
   color: rgba(30,30,30,1);
   font-family: Montserrat;

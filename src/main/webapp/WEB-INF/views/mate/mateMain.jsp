@@ -11,204 +11,124 @@
 <link href="https://fonts.googleapis.com/css?family=Inter&display=swap?" rel="stylesheet" />
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
-<link href="${pageContext.request.contextPath}/assets/css/mateMain.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/common.css" rel="stylesheet" />
 
 <body>
-<!-- wrap -->
-<div id="wrap">
+<!-- mateMain_wrap -->
+<div class="mateMain_wrap">
+
 	<!-- header -->
-	<div id=header>
-	</div>
+	<header>
+	</header>
+	<!-- header -->
 	
-	<div id="content">
-		<h2>FIND YOUR MATE</h2>
-		<div class="inputBox">
-			
-			<div class="sel1">
-				<label for="Location" class="LocationLabel">Location</label><br>
-				<input type="text" id="Location" placeholder="목적지를 입력해주세요">
+	<!-- mateMain_content -->
+	<div class="mateMain_content">
+		<div class="seachBox">
+			<h2>FIND YOUR MATE</h2>
+			<div class="inputBox">
+				<div class="selBox">
+					<div class="sel1">
+						<label for="Location" class="LocationLabel">Location</label><br>
+						<input type="text" id="Location" placeholder="목적지를 입력해주세요">
+					</div>
+					
+					<div class="sel2">
+						<label for="CheckIn" class="CheckInLabel">Check In</label><br>
+						<input type="text" id="CheckIn" placeholder="Add Dates">
+					</div>
+					
+					<div class="sel3">
+						<label for="CheckOut" class="CheckOutLabel">Check Out</label><br>
+						<input type="text" id="CheckOut" placeholder="Add Dates">
+					</div>
+					
+					<div class="sel4">
+						<label for="People" class="PeopleLabel">People</label><br>
+						<input type="text" id="People" placeholder="Add Guests">
+					</div>
+				</div>
+				
+				<div class="searchPictogrem"></div>
 			</div>
-			
-			<div class="sel2">
-				<label for="CheckIn" class="CheckInLabel">Check In</label><br>
-				<input type="text" id="CheckIn" placeholder="Add Dates">
-			</div>
-			
-			<div class="sel3">
-				<label for="CheckOut" class="CheckOutLabel">Check Out</label><br>
-				<input type="text" id="CheckOut" placeholder="Add Dates">
-			</div>
-			
-			<div class="sel4">
-				<label for="People" class="PeopleLabel">People</label><br>
-				<input type="text" id="People" placeholder="Add Guests">
-			</div>
-			
-			<div class="searchPictogrem"></div>
 		</div>
 	</div>
+	<!-- mateMain_content -->
 	
-	<div id="content2">
+	<!-- mateMain_content2 -->
+	<div class="mateMain_content2">
 		<div class="checkBox">
-				<span class="nonSmoke"><input type="checkbox" name="mateContactList" value="nonSmoke">&nbsp;&nbsp;비흡연자</span>
-				<span class="femaleDriver"><input type="checkbox" name="mateContactList" value="femaleDriver">&nbsp;&nbsp;여성드라이버</span>
-				<span class="pet"><input type="checkbox" name="mateContactList" value="pet">&nbsp;&nbsp;반려동물</span>
-				<span class="phoneCharger"><input type="checkbox" name="mateContactList" value="phoneCharger">&nbsp;&nbsp;핸드폰 충전기 이용 가능</span>
-				<span class="handWash"><input type="checkbox" name="mateContactList" value="handWash">&nbsp;&nbsp;손소독제</span>
-				<span class="carWifi"><input type="checkbox" name="mateContactList" value="carWifi">&nbsp;&nbsp;차량 와이파이</span>
-				<span class="silence"><input type="checkbox" name="mateContactList" value="silence">&nbsp;&nbsp;조용히가기</span>
-				<span class="useTrunk"><input type="checkbox" name="mateContactList" value="useTrunk">&nbsp;&nbsp;트렁크 사용 가능</span>
-				<div class="pictogrem01"></div>											
+				<span class="nonSmoke"><input type="checkbox" name="mateContactList" value="nonSmoke">비흡연자</span>
+				<span class="femaleDriver"><input type="checkbox" name="mateContactList" value="femaleDriver">여성드라이버</span>
+				<span class="pet"><input type="checkbox" name="mateContactList" value="pet">반려동물</span>
+				<span class="phoneCharger"><input type="checkbox" name="mateContactList" value="phoneCharger">핸드폰 충전기 이용 가능</span>
+				<span class="handWash"><input type="checkbox" name="mateContactList" value="handWash">손소독제</span>
+				<span class="carWifi"><input type="checkbox" name="mateContactList" value="carWifi">차량 와이파이</span>
+				<span class="silence"><input type="checkbox" name="mateContactList" value="silence">조용히가기</span>
+				<span class="useTrunk"><input type="checkbox" name="mateContactList" value="useTrunk">트렁크 사용 가능</span>										
 		</div>
 		
-		<div class=mateList>
-			<div class="list1">		
-			</div><br>
-			<span class="driverName">Driver Joyunju</span>
-			<span class="schedule">일정 07.25 - 07.26</span><br>
-			<span class="startEnd">서울역 → 강릉</span>
-			<span class="seat">좌석</span>
-			<span class="seatNo">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list2">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list3">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list4">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
+		<div class="mateListAll clearfix">
+			<div class=mateList>
+				<div class="matePicture">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<span class="seatPictogrem">좌석</span>
+				<span class="seatNo">2</span>
+				<span class="petPictogrem">애견</span>
+				<span class="petYN">가능</span>
+			</div>	
+			<div class=mateList>
+				<div class="matePicture">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<span class="seatPictogrem">좌석</span>
+				<span class="seatNo">2</span>
+				<span class="petPictogrem">애견</span>
+				<span class="petYN">가능</span>
+			</div>	
+			<div class=mateList>
+				<div class="matePicture">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<span class="seatPictogrem">좌석</span>
+				<span class="seatNo">2</span>
+				<span class="petPictogrem">애견</span>
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<span class="seatPictogrem">좌석</span>
+				<span class="seatNo">2</span>
+				<span class="petPictogrem">애견</span>
+				<span class="petYN">가능</span>
+			</div>	
 		</div>
-		
-		<div class=mateList>
-			<div class="list1">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list2">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list3">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list4">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>
-		
-		<div class=mateList>
-			<div class="list1">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list2">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list3">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>		
-		<div class=mateList>
-			<div class="list4">		
-			</div><br>
-			<span class="v240_11262">Driver Joyunju</span>
-			<span class="v240_11286">일정 07.25 - 07.26</span><br>
-			<span class="v240_11274">서울역 → 강릉</span>
-			<span class="v240_11322">좌석</span>
-			<span class="v240_11310">2</span>
-			<span class="v240_11418">애견</span>
-			<span class="v240_11298">가능</span>
-		</div>
-		
-		<button class="v240_11556">
-			<span class="v240_11557">더보기</span>
+			
+		<button class="mateListBtn">
+			<h2>더보기</h2>
 		</button>		
 	</div>
+	<!-- //mateMain_content2 -->
 	
-	<!-- banner -->
-	<div id="banner">
-		<span class="v240_10918">BANNER</span>
+	<!-- mateMain_banner -->
+	<div class="mateMain_banner">
+		<h2>BANNER</h2>
 	</div>
 	<!-- //banner -->
 </div>
-<!-- //wrap -->
+<!-- //mateMain_wrap -->
 
 </body>
 </html>
