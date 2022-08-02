@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>mateMain</title>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap?" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap?" rel="stylesheet" />

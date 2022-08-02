@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>메이트인포</title>
+<title>mateInfo</title>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap?after" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap?after" rel="stylesheet" />
@@ -80,8 +80,10 @@
 			</p>
 		</div>
 		<div class="v240_10883">
-			<span class="v240_10885">보러가기</span>
-			<span class="pic2"></span>
+			<a href="${pageContext.request.contextPath}/mateMain">
+				<span class="v240_10885">보러가기</span>
+				<span class="pic2"></span>
+			</a>
 		</div>
 	</div>
 	<!-- //banner2 -->

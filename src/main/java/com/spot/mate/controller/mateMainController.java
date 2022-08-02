@@ -14,13 +14,4 @@ public class mateMainController {
 			
 			return "mate/mateMain";
 		}
-		
-		//메인폼
-				@RequestMapping(value="/mateMain2", method = {RequestMethod.GET, RequestMethod.POST})
-				public String main1() {
-					System.out.println(" mateMainController >> main");
-					
-					return "mate/mateMain2";
-				}
-
 }
