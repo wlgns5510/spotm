@@ -20,6 +20,7 @@ button {
 #wrap {
 	width: 1920px;
 	margin: 0px auto;
+	background: rgba(255,255,255,1);
 }
 .mateList {
 	float: left;
@@ -137,7 +138,7 @@ body {
   border-bottom-right-radius: 12px;
   overflow: hidden;
 }
-.v240_11262 {
+.mateList .driverName {
   width: 118px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -277,7 +278,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11274 {
+.startEnd {
   width: 150px;
   color: rgba(72,72,72,1);
   font-family: Noto Sans;
@@ -417,7 +418,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11286 {
+.schedule {
   width: 135px;
   color: rgba(72,72,72,1);
   font-family: Noto Sans;
@@ -556,7 +557,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11298 {
+.petY {
   width: 10px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -695,7 +696,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11310 {
+.seatNo {
   width: 50px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -834,7 +835,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11322 {
+.seat {
   width: 27px;
   height: 27px;
   background-color: #ff00ff;
@@ -1817,7 +1818,7 @@ body {
   left: 14px;
   border: 1.875px solid rgba(72,72,72,1);
 }
-.v240_11418 {
+.pet {
   width: 27px;
   height: 27px;
   background-color: #ff00ff;
@@ -2717,7 +2718,7 @@ body {
   left: 485px;
   overflow: hidden;
 }
-.v240_11507 {
+#content h2 {
   width: 367px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -2725,13 +2726,13 @@ body {
   font-size: 40px;
 
 }
-.v240_11508 {
+.inputBox {
   width: 950px;
   height: 70px;
   background: rgba(255,255,255,1);
   padding: 15px 5px 10px 30px;
 }
-.v240_11509 {
+.LocationLabel {
   width: 80px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -2749,14 +2750,14 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11508  input::placeholder {
+.inputBox  input::placeholder {
 	color: #C2C6CC;
 }
-.v240_11508  input {
+.inputBox  input {
 	border: none;
 }
 
-.v240_11511 {
+.CheckInLabel {
   width: 80px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -2777,7 +2778,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11513 {
+.CheckOutLabel {
   width: 80px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -2798,7 +2799,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11515 {
+.PeopleLabel {
   width: 80px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
@@ -2832,7 +2833,7 @@ body {
   left: 886px;
   overflow: hidden;
 }
-.v240_11518 {
+.searchPictogrem {
   width: 54px;
   height: 54px;
   background: rgba(70,84,163,1);
@@ -3215,7 +3216,7 @@ body {
   background: rgba(244,251,251,1);
   padding: 70px 700px 70px 900px;
 }
-.v240_11558 {
+.checkBox {
   width: 1435px;
   height: 55px;
   background: rgba(255,255,255,1);
@@ -3224,7 +3225,7 @@ body {
   overflow: hidden;
   position: relative;
 }
-.v240_11559 {
+.pictogrem01 {
   width: 19px;
   height: 19px;
   background: rgba(0,0,0,1);
@@ -3235,31 +3236,31 @@ body {
   transform: rotate(-90deg);
 }
 
-.v240_11560 {
+.nonSmoke {
   width: 90px;
   color: rgba(91,91,91,1);
   position: absolute;
   top: 17px;
   left: 30px;
   font-family: Noto Sans;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
 }
-.v240_11561 {
+.femaleDriver {
   width: 120px;
   color: rgba(73,85,159,1);
   position: absolute;
   top: 17px;
   left: 150px;
   font-family: Noto Sans;
-  font-weight: SemiBold;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
 }
-.v240_11564 {
+.pet {
   width: 90px;
   color: rgba(72,72,72,1);
   position: absolute;
@@ -3271,7 +3272,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11566 {
+.phoneCharger {
   width: 195px;
   color: rgba(72,72,72,1);
   position: absolute;
@@ -3283,7 +3284,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11567 {
+.handWash {
   width: 90px;
   color: rgba(72,72,72,1);
   position: absolute;
@@ -3295,7 +3296,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11568 {
+.carWifi {
   width: 125px;
   color: rgba(72,72,72,1);
   position: absolute;
@@ -3307,7 +3308,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11569 {
+.silence {
   width: 105px;
   color: rgba(72,72,72,1);
   position: absolute;
@@ -3319,7 +3320,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11570 {
+.useTrunk {
   width: 145px;
   color: rgba(72,72,72,1);
   position: absolute;
