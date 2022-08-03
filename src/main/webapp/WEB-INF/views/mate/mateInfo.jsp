@@ -17,6 +17,7 @@
 
 	<!-- header -->
 	<header>
+		<c:import url="/WEB-INF/views/includes/header.jsp"></c:import>
 	</header>	
 	<!-- //header -->
 	

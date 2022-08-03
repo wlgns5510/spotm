@@ -12,8 +12,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 100;
     src: local('Noto Sans LightItalic');
     src: url(../fonts/NotoSans-LightItalic.eot);
@@ -36,8 +36,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 200;
     src: local('Noto Sans ExtraLightItalic');
     src: url(../fonts/NotoSans-ExtraLightItalic.eot);
@@ -60,8 +60,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 300;
     src: local('Noto Sans LightItalic');
     src: url(../fonts/NotoSans-LightItalic.eot);
@@ -84,8 +84,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 400;
     src: local('Noto Sans Regular');
     src: url(../fonts/NotoSans-RegularItalic.eot);
@@ -108,8 +108,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 500;
     src: local('Noto Sans MediumItalic');
     src: url(../fonts/NotoSans-MediumItalic.eot);
@@ -132,8 +132,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 600;
     src: local('Noto Sans SemiBoldItalic');
     src: url(../fonts/NotoSans-SemiBoldItalic.eot);
@@ -156,8 +156,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 700;
     src: local('Noto Sans BoldItalic');
     src: url(../fonts/NotoSans-BoldItalic.eot);
@@ -180,8 +180,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 800;
     src: local('Noto Sans ExtraBoldItalic');
     src: url(../fonts/NotoSans-ExtraBoldItalic.eot);
@@ -204,8 +204,8 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-style: italic;
     font-weight: 900;
     src: local('Noto Sans BlackItalic');
     src: url(../fonts/NotoSans-BlackItalic.eot);
@@ -231,8 +231,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 100;
     src: local('Montserrat ThinItalic'), local('Montserrat ThinItalic'), local('Montserrat ThinItalic');
     src: url(../fonts/Montserrat-ThinItalic.eot);
@@ -255,8 +255,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 200;
     src: local('Montserrat ExtraLightItalic'), local('Montserrat ExtraLightItalic'), local('Montserrat ExtraLightItalic');
     src: url(../fonts/Montserrat-ExtraLightItalic.eot);
@@ -279,8 +279,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 300;
     src: local('Montserrat LightItalic'), local('Montserrat LightItalic'), local('Montserrat LightItalic');
     src: url(../fonts/Montserrat-LightItalic.eot);
@@ -303,8 +303,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 400;
     src: local('Montserrat RegularItalic'), local('Montserrat RegularItalic'), local('Montserrat RegularItalic');
     src: url(../fonts/Montserrat-RegularItalic.eot);
@@ -327,8 +327,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 500;
     src: local('Montserrat MediumItalic'), local('Montserrat MediumItalic'), local('Montserrat MediumItalic');
     src: url(../fonts/Montserrat-MediumItalic.eot);
@@ -351,8 +351,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 600;
     src: local('Montserrat SemiBoldItalic');
     src: url(../fonts/Montserrat-SemiBoldItalic.eot);
@@ -375,8 +375,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 700;
     src: local('Montserrat BoldItalic');
     src: url(../fonts/Montserrat-BoldItalic.eot);
@@ -399,8 +399,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 800;
     src: local('Montserrat ExtraBoldItalic');
     src: url(../fonts/Montserrat-ExtraBoldItalic.eot);
@@ -423,8 +423,8 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat Italic';
+    font-style: italic;
     font-weight: 900;
     src: local('Montserrat BlackItalic');
     src: url(../fonts/Montserrat-BlackItalic.eot);
@@ -511,4 +511,3 @@
     url(../fonts/notokr-black.woff) format('woff'),
     url(../fonts/notokr-black.otf) format('opentype');
 }
-

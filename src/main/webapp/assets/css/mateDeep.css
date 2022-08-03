@@ -45,7 +45,7 @@ header {
   width: 360px;
   height: 800px;
   position: absolute;
-  top: 40px;
+  top: 0px;
   left: 1000px;
   border: 1px solid rgba(217,217,217,1);
   float: right;
@@ -221,28 +221,33 @@ header {
   font-size: 24px;
   margin: 0px 0px 0px 100px;
 }
-
-/*********************** contnet > schedule *************************/
-.mateDeep_content .mateDeep_moveSchedule {
+/********************** titleFont ***********************************/
+.mateDeep_content .mateDeep_titleFont1 {
   width: 120px;
   color: rgba(72,72,72,1);
-  position: absolute;
-  top: 50px;
-  left: 0px;
   font-family: Noto Sans;
-  font-weight: Bold;
+  font-weight: 600;
   font-size: 22px;
   opacity: 1;
   text-align: left;
+  margin: 100px 0px 40px 0px;
 }
+.mateDeep_content .mateDeep_titleFont2 {
+  width: 200px;
+  color: rgba(72,72,72,1);
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+  margin: 0px 0px 30px 0px;
+
+}
+/*********************** contnet > schedule *************************/
 .mateDeep_content .mateDeep_dayBox {
 	width: 90px;
     height: 40px;
     background: rgba(239,239,239,1);
-    opacity: 1;
-    position: absolute;
-    top: 120px;
-    left: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -256,43 +261,58 @@ header {
   font-size: 16px;
   margin: 10px 0px 10px 24px;
 }
-.mateDeep_mateStart .mateDeep_start {
-  width: 47px;
+.mateDeep_start {
+  width: 60px;
   color: rgba(91,91,91,1);
-  position: absolute;
-  top: 180px;
-  left: 0px;
   font-family: Noto Sans;
   font-weight: 600;
   font-size: 16px;
   opacity: 1;
   text-align: left;
+  margin: 30px 0px 5px 0px;
 }
-.mateDeep_mateStart .mateDeep_time {
+.mateDeep_today {
+	display:block; width:1000px;
+	float: left;
+	margin: 0px 0px 100px 0px;
+}
+.mateDeep_today .mateDeep_float {
+	float: left;
+}
+.mateDeep_today img {
+	margin: 60px 50px 0px 10px;
+}
+.mateDeep_time {
   width: 100px;
   color: rgba(91,91,91,1);
-  position: absolute;
-  top: 210px;
-  left: 0px;
   font-family: Noto Sans;
   font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
+  margin: 9px 0px 9px 0px;
 }
-.mateDeep_mateStart .mateDeep_spot {
-  width: 60px;
+.mateDeep_spot {
+  width: 120px;
   color: rgba(91,91,91,1);
-  position: absolute;
-  top: 245px;
-  left: 0px;
   font-family: Noto Sans;
-  font-weight: Bold;
+  font-weight: 600;
   font-size: 18px;
   opacity: 1;
   text-align: left;
 }
-
+.mateDeep_pictogrem {
+  width: 80px;
+  height: 10px;
+  background-color: #000000;
+  float: right;
+}
+/************************** map ****************************/
+.mateDeep_content .mateDeep_map {
+  width: 945px;
+  height: 300px;
+  background: rgba(245,245,245,1);
+}
 #content2 {
 	float: right;
 	width: 200px;
@@ -644,48 +664,7 @@ header {
   opacity: 1;
   text-align: left;
 }
-.v240_11827 {
-  width: 91px;
-  height: 10px;
-  background: url("../images/v240_11827.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  overflow: hidden;
-}
-.v240_11828 {
-  width: 50px;
-  background: url("../images/v240_11828.png");
-  opacity: 1;
-  position: absolute;
-  top: 5px;
-  left: 20px;
-  border: 1px solid rgba(224,224,224,1);
-}
-.v240_11829 {
-  width: 10px;
-  height: 10px;
-  background: rgba(242,242,242,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-radius: 50%;
-}
-.v240_11830 {
-  width: 10px;
-  height: 10px;
-  background: rgba(95,144,236,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 81px;
-  border-radius: 50%;
-}
+
 .v240_11831 {
   width: 91px;
   height: 10px;
@@ -937,16 +916,7 @@ header {
   left: 244px;
   overflow: hidden;
 }
-.v240_11856 {
-  width: 945px;
-  height: 300px;
-  background: rgba(245,245,245,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
 .v240_11857 {
   width: 100%;
   height: 892px;

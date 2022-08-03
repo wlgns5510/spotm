@@ -48,33 +48,70 @@
 				</button>		
 			</div>
 			
-			<span class="mateDeep_moveSchedule">이동 스케줄</span>
+			<div class="mateDeep_titleFont1">이동 스케줄</div>
 			
 			<div class="mateDeep_today">
 				<div class="mateDeep_dayBox">
 					<p>1일차</p>
-				</div>				
-				<div class="mateDeep_mateStart">
-					<span class="mateDeep_start">START</span>
-					<span class="mateDeep_time">08 : 00 AM</span>
-					<span class="mateDeep_spot">서울역</span>			
-					<div class="v240_11827">
-						<div class="v240_11828"></div>
-						<div class="v240_11829"></div>
-						<div class="v240_11830"></div>
-					</div>
 				</div>
-				
-				<span class="v240_11809">SPOT 1</span>
-				<span class="v240_11815">01 : 30 PM</span>
-				<span class="v240_11821">강릉 안목해변</span>
-				<div class="v240_11835">
-					<div class="v240_11836"></div>
-					<div class="v240_11837"></div>
-					<div class="v240_11838"></div>
+				<div class="mateDeep_float">			
+					<div class="mateDeep_start">START</div>
+					<div class="mateDeep_time">08 : 00 AM</div>
+					<div class="mateDeep_spot">서울역</div>							
 				</div>
-				
+				<img class="mateDeep_float" src="${pageContext.request.contextPath}/assets/images/mate_mapline.png">
+				<div class="mateDeep_float">
+					<div class="mateDeep_start">SPOT 1</div>
+					<div class="mateDeep_time">01 : 30 PM</div>
+					<div class="mateDeep_spot">강릉 안목해변</div>
+				</div>
+				<img class="mateDeep_float" src="${pageContext.request.contextPath}/assets/images/mate_mapline.png">
+				<div class="mateDeep_float">
+					<div class="mateDeep_start">SPOT 2</div>
+					<div class="mateDeep_time">04 : 20 PM</div>
+					<div class="mateDeep_spot">테라로사 카페</div>
+				</div>
+				<img class="mateDeep_float" src="${pageContext.request.contextPath}/assets/images/mate_mapline.png">
+				<div class="mateDeep_float">
+					<div class="mateDeep_start">SPOT 3</div>
+					<div class="mateDeep_time">07 : 20 PM</div>
+					<div class="mateDeep_spot">강릉 주문진</div>
+				</div>
 			</div>
+			
+			<div class="mateDeep_today">
+				<div class="mateDeep_dayBox">
+					<p>2일차</p>
+				</div>
+				<div class="mateDeep_float">			
+					<div class="mateDeep_start">START</div>
+					<div class="mateDeep_time">08 : 00 AM</div>
+					<div class="mateDeep_spot">서울역</div>							
+				</div>
+				<img class="mateDeep_float" src="${pageContext.request.contextPath}/assets/images/mate_mapline.png">
+				<div class="mateDeep_float">
+					<div class="mateDeep_start">SPOT 1</div>
+					<div class="mateDeep_time">08 : 00 AM</div>
+					<div class="mateDeep_spot">서울역</div>
+				</div>
+				<img class="mateDeep_float" src="${pageContext.request.contextPath}/assets/images/mate_mapline.png">
+				<div class="mateDeep_float">
+					<div class="mateDeep_start">SPOT 2</div>
+					<div class="mateDeep_time">08 : 00 AM</div>
+					<div class="mateDeep_spot">서울역</div>
+				</div>
+				<img class="mateDeep_float" src="${pageContext.request.contextPath}/assets/images/mate_mapline.png">
+				<div class="mateDeep_float">
+					<div class="mateDeep_start">SPOT 3</div>
+					<div class="mateDeep_time">08 : 00 AM</div>
+					<div class="mateDeep_spot">서울역</div>
+				</div>
+			</div>
+			
+			<div class="mateDeep_titleFont2">주변 장소 추천</div>
+			<div class="mateDeep_map"></div>
+			
+			
 		
 		
 		

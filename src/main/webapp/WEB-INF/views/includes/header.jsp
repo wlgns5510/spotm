@@ -7,24 +7,106 @@
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 <title>Insert title here</title>
 </head>
+<link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
 <body>
-<div id="safe">
-<a href="#">안전하게 이용하는 스팟메이트 안전 대책 ></a>
-</div>
-<div id="header" class="clearfix">
-	<h1><a href="./"><img src="./assets/images/main.png" style="width:220px; height:120px;"></a></h1>
-	<ul id="nav"> 
-		<li id="brand">BRAND</li>
-		<li id="spot">SPOT</li>
-		<li id="mate">MATE</li>
-		<li id="driver">DRIVER</li>
-		<li id="notice">NOTICE</li>
-	</ul>
-	<ol id="login">
-		<li><a href="">로그인</a></li>
-		<li><a href="">회원가입</a></li>
-	</ol>
-	
-</div>
+ <!-- header -->
+        <header class="header_wrapper">
+            <div class="top_banner">
+                <p>안전하게 이용하는 스팟메이트 안전 대책&nbsp;&nbsp;&gt;</p>
+            </div>
+            <div class="inner clear">
+                <div class="lft_sec">
+                    <!-- a href="javascript:void(0);" : 눌렀을 때 아예 아무 기능 없음 -->
+                    <h1 class="header_logo"><a href="javascript:void(0);"><img src="../images/common/header_logo.png" alt="SPOTMATE"></a></h1>
+                </div>
+                <div class="cen_sec">
+                    <!-- <strong class="header_tit">SERVICE</strong> -->
+                    <ul class="gnb" id="gnb">
+                        <li>
+                            <a href="javascript:void(0);">BRAND</a>
+                            <div class="depth2">
+                                <ul>
+                                    <li><a href="javascript:void(0);">ABOUT US</a></li>
+                                    <li><a href="javascript:void(0);">FOR EARTH</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">SPOT</a>
+                            <div class="depth2">
+                                <ul>
+                                    <li><a href="javascript:void(0);">CARPOOL</a></li>
+                                    <li><a href="javascript:void(0);">HITCHHIKE</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">MATE</a>
+                            <div class="depth2">
+                                <ul>
+                                    <li><a href="javascript:void(0);">SERVICE</a></li>
+                                    <li><a href="javascript:void(0);">PRODUCT</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">COMMUNITY</a>
+                            <div class="depth2">
+                                <ul>
+                                    <li><a href="javascript:void(0);">NOTICE</a></li>
+                                    <li><a href="javascript:void(0);">FAQ</a></li>
+                                    <li><a href="javascript:void(0);">EVENT</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">DRIVER</a>
+                            <div class="depth2">
+                                <ul>
+                                    <li><a href="javascript:void(0);">GUIDE</a></li>
+                                    <li><a href="javascript:void(0);">REGISTER</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rit_sec">
+                    <!-- <strong class="header_tit">PRTFOLIO</strong> -->
+                    <div class="">
+                        <!-- 로그인 전 -->
+                        <!--
+                        <ul class="header_btn">
+                            <li><a href="javascript:void(0);" class="btn_login">LOGIN</a></li>
+                            <li><a href="javascript:void(0);" class="btn_join">회원가입</a></li>
+                        </ul>
+                        -->
+                        <!-- 로그인 후 -->
+                        <!-- -->
+                        <ul class="loginafter">
+                            <li>
+                                <a href="javascript:void(0);" class="btn_a1">
+                                    <img src="../images/common/login_image_50_01.png" alt="회원이미지">
+                                    Joyunju12345님
+                                </a>
+                                <div class="down">
+                                    <ul>
+                                        <li><a href="javascript:void(0);">마이 페이지</a></li>
+                                        <li><a href="javascript:void(0);">마이 포인트</a></li>
+                                        <li><a href="javascript:void(0);">나의 예약 내역</a></li>
+                                        <li><a href="javascript:void(0);">로그아웃</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="btn_a2">MY PAGE</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- //header -->
 </body>
 </html>
