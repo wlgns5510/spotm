@@ -12,7 +12,7 @@
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/mateDeep.css" rel="stylesheet" />
-<link href="${pageContext.request.contextPath}/assets/css/common.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
 <body>
 	<!-- wrap -->
 	<div id="wrap">
