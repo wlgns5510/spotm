@@ -6,65 +6,63 @@
 <meta charset="UTF-8">
 <title>mateDeep</title>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap?after" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap?after" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Inter&display=swap?after" rel="stylesheet" />
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/mateDeep.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
 <body>
-	<!-- wrap -->
-	<div id="wrap">
+	<!-- mateDeep_wrap -->
+	<div class="mateDeep_wrap">
 	
 		<!-- header -->
-		<div id="header">	
-		</div>
+		<header>
+		</header>	
 		<!-- //header -->
 		
-		<!-- banner1 -->
-		<div id="banner1">
-			<h2 class="v240_10867">같이 타고 가요<br>FIND YOUR MATE</h2>
-			<h3 class="v240_10868">출발지에서 도착지까지<br> 모든 일정의 이동을 함께하는 서비스입니다.</h3>
+		<!-- mateDeep_banner1 -->
+		<div class="mateDeep_banner1">
+			<h2>같이 타고 가요<br>FIND YOUR MATE</h2>
+			<h3>출발지에서 도착지까지<br> 모든 일정의 이동을 함께하는 서비스입니다.</h3>
 		</div>
-		<!-- //banner1 -->
+		<!-- //mateDeep_banner1 -->
 		
-		<!-- content -->
-		<div id="content">
-			<div class="v240_11800">
+		<!-- mateDeep_content -->
+		<div class="mateDeep_content">
+			<div class="mateDeep_infoBox">
 			<div class="driverInfo">
-				<span class="v240_11795">탑승 인원수</span>
-				<span class="v240_11788">1명</span>
-				<span class="v240_11792">탑승 시간</span>
-				<span class="v240_11787">오전 08:00</span>
-				<span class="v240_11784">출발 날짜</span>
-				<span class="v240_11785">2022.07.25.월요일</span>
-				<span class="v240_11791">도착 날짜</span>
-				<span class="v240_11786">2022.07.27.수요일</span>
+				<span class="mateDeep_passengers">탑승 인원수</span>
+				<span class="mateDeep_CPassengers">1명</span>
+				<span class="mateDeep_boardingtime">탑승 시간</span>
+				<span class="mateDeep_CBoardingtime">오전 08:00</span>
+				<span class="mateDeep_startDay">출발 날짜</span>
+				<span class="mateDeep_CStartDay">2022.07.25.월요일</span>
+				<span class="mateDeep_endDay">도착 날짜</span>
+				<span class="mateDeep_CEndDay">2022.07.27.수요일</span>
 			</div>
-				<span class="v240_11789">총 결제 포인트</span>
-				<span class="v240_11790">50,000 포인트</span>
-				<span class="v240_11793">*포인트는 선결제되며,<br> 도착시 드라이버에게 지급이됩니다.</span>
-				<span class="v240_11794">*출발 예정시간보다 15분이상 늦게<br>도착시 패널티가 부여될 수 있으며,<br>자세한 사항은 공지사항에서 확인<br> 부탁드립니다.</span>
-				<button class="v240_11798">
-					<span class="buttonFont">탑승하기</span>
+				<span class="mateDeep_totalPoint">총 결제 포인트</span>
+				<span class="mateDeep_payPoint">50,000 포인트</span>
+				<p class="p1">*포인트는 선결제되며,<br> 도착시 드라이버에게 지급이됩니다.</p>
+				<p class="p2">*출발 예정시간보다 15분이상 늦게 도착시<br> 패널티가 부여될 수 있으며, 자세한 사항은<br> 공지사항에서 확인 부탁드립니다.</p>
+				<button class="mateDeep_boardingBtn">
+					<p class="p3">탑승하기</p>
 				</button>		
 			</div>
 			
-			<span class="v240_11801">이동 스케줄</span>
+			<span class="mateDeep_moveSchedule">이동 스케줄</span>
 			
-			<div>
-				<div class="v240_11851">
-					<span class="v240_11853">1일차</span>
-				</div>
-				
-				<span class="v240_11803">START</span>
-				<span class="v240_11805">08 : 00 AM</span>
-				<span class="v240_11807">서울역</span>			
-				<div class="v240_11827">
-					<div class="v240_11828"></div>
-					<div class="v240_11829"></div>
-					<div class="v240_11830"></div>
+			<div class="mateDeep_today">
+				<div class="mateDeep_dayBox">
+					<p>1일차</p>
+				</div>				
+				<div class="mateDeep_mateStart">
+					<span class="mateDeep_start">START</span>
+					<span class="mateDeep_time">08 : 00 AM</span>
+					<span class="mateDeep_spot">서울역</span>			
+					<div class="v240_11827">
+						<div class="v240_11828"></div>
+						<div class="v240_11829"></div>
+						<div class="v240_11830"></div>
+					</div>
 				</div>
 				
 				<span class="v240_11809">SPOT 1</span>
@@ -85,12 +83,12 @@
 		
 					
 		</div>
-		<!-- //content -->
+		<!-- //mateDeep_content -->
 		
 				
 		
 	
 	</div>
-	<!-- //wrap -->
+	<!-- //mateDeep_wrap -->
 </body>
 </html>

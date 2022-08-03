@@ -38,7 +38,7 @@ header {
   width: 367px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
-  font-weight: Bold;
+  font-weight: 700;
   font-size: 40px;
   margin: 0px 0px 30px 0px;
 }
@@ -71,7 +71,7 @@ header {
   width: 80px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
-  font-weight: Bold;
+  font-weight: 600;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -80,7 +80,7 @@ header {
   width: 80px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
-  font-weight: Bold;
+  font-weight: 600;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -89,7 +89,7 @@ header {
   width: 80px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
-  font-weight: Bold;
+  font-weight: 600;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -98,7 +98,7 @@ header {
   width: 70px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
-  font-weight: Bold;
+  font-weight: 600;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -141,7 +141,7 @@ header {
   top: 19px;
   left: 30px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -153,7 +153,7 @@ header {
   top: 19px;
   left: 170px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -165,7 +165,7 @@ header {
   top: 19px;
   left: 340px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -177,7 +177,7 @@ header {
   top: 19px;
   left: 485px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -189,7 +189,7 @@ header {
   top: 19px;
   left: 740px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -201,7 +201,7 @@ header {
   top: 19px;
   left: 890px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -213,7 +213,7 @@ header {
   top: 19px;
   left: 1090px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -225,7 +225,7 @@ header {
   top: 19px;
   left: 1260px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -235,6 +235,7 @@ header {
 }
 .mateMain_content2 .mateList {
 	float: left;
+	height: 420px;
 	margin: 0px 26px 90px 0px;
 }
 .mateMain_content2 .mateList .matePicture {
@@ -254,7 +255,7 @@ header {
   width: 118px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   margin: 0px 85px 0px 0px;
 }
@@ -271,7 +272,7 @@ header {
   font-family: Noto Sans;
   font-weight: Bold;
   font-size: 20px;
-  margin: 0px 73px 0px 0px;
+  margin: 10px 73px 0px 0px;
 }
 .mateMain_content2 .mateList .seatPictogrem {
   width: 27px;

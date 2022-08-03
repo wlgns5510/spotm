@@ -1,61 +1,31 @@
-@charset "UTF-8";
-*{margin:0;padding:0;font:inherit;color:inherit;}
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('../fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
-}
-*, :after, :before {box-sizing:border-box;flex-shrink:0;}
-:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
-html, body {height:100%;}
-img, picture, video, canvas, svg {display: block;max-width:100%;}
-table {border-collapse:collapse;border-spacing:0}
-ul, ol {list-style-type: none;}
-a {text-decoration: none;}
 .clearfix{*zoom:1;}
 .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
 .clearfix:after {clear: both;}
-
-body {
-  font-size: 14px;
-}
-#wrap {
+.mateDeep_wrap {
 	width: 1920px;
 	height: 4175px;
 	background: rgba(255,255,255,1);
 	margin: 0px auto;	
 }
-#header {
+header {
   width: 1920px;
   height: 200px;
   background: rgba(255,255,255,1);
 }
-#banner1 {
+.mateDeep_banner1 {
   width: 1920px;
   height: 210px;
   background: rgba(245,245,245,1);
 }
-#content {
-	width: 1440px;
-	height: 2000px;
-	margin: 0px 240px 0px 240px;
-    background: rgba(255,255,255,1);
-    position: relative;
-}
-#content2 {
-	float: right;
-	width: 200px;
-	height: 50px;
-}
-.v240_10867 {
+.mateDeep_banner1 h2 {
   color: rgba(30,30,30,1);
   font-family: Noto Sans;
   font-weight: 600;
   font-size: 32px; 
-  font-weight: bold;
   float: left;
   margin: 100px 0px 0px 240px;
 }
-.v240_10868 {
+.mateDeep_banner1 h3 {
   color: rgba(30,30,30,1);
   font-family: Noto Sans;
   font-weight: 600;
@@ -63,6 +33,272 @@ body {
   float: right;
   margin: 100px 500px 0px 0px;
 }
+/*************************mateDeep_content*******************************/
+.mateDeep_content {
+	width: 1440px;
+	height: 2000px;
+	margin: 0px 240px 0px 240px;
+    background: rgba(255,255,255,1);
+    position: relative;
+}
+.mateDeep_content .mateDeep_infoBox {
+  width: 360px;
+  height: 800px;
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  border: 1px solid rgba(217,217,217,1);
+  float: right;
+}
+.mateDeep_content .driverInfo {
+	height: 400px;	
+	margin: 0px 50px;
+	border-bottom: 1px solid rgba(217,217,217,1);	
+}
+.mateDeep_content .mateDeep_passengers {
+  width: 100px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 45px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_CPassengers {
+  width: 40px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 75px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_boardingtime {
+  width: 80px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 130px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_CBoardingtime {
+  width: 130px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_startDay {
+  width: 80px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 220px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_CStartDay {
+  width: 160px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 250px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_endDay {
+  width: 85px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 310px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_CEndDay {
+  width: 160px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 340px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_totalPoint {
+  width: 140px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 415px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_payPoint {
+  width: 159px;
+  color: rgba(73,85,159,1);
+  position: absolute;
+  top: 445px;
+  left: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .p1 {
+  width: 230px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 480px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .p2 {
+  width: 280px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 530px;
+  left: 60px;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_boardingBtn {
+  width: 310px;
+  height: 65px;
+  background: rgba(70,84,163,1);
+  opacity: 1;
+  position: absolute;
+  top: 700px;
+  left: 25px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-style : none;
+  overflow: hidden;  
+}
+.mateDeep_content .p3{
+  width: 100px;
+  color: rgba(255,255,255,1);
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0px 0px 0px 100px;
+}
+
+/*********************** contnet > schedule *************************/
+.mateDeep_content .mateDeep_moveSchedule {
+  width: 120px;
+  color: rgba(72,72,72,1);
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_content .mateDeep_dayBox {
+	width: 90px;
+    height: 40px;
+    background: rgba(239,239,239,1);
+    opacity: 1;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+.mateDeep_content .mateDeep_dayBox p {
+  color: rgba(95,95,95,1);
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 10px 0px 10px 24px;
+}
+.mateDeep_mateStart .mateDeep_start {
+  width: 47px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_mateStart .mateDeep_time {
+  width: 100px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 210px;
+  left: 0px;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.mateDeep_mateStart .mateDeep_spot {
+  width: 60px;
+  color: rgba(91,91,91,1);
+  position: absolute;
+  top: 245px;
+  left: 0px;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+
+#content2 {
+	float: right;
+	width: 200px;
+	height: 50px;
+}
+
 .v94_8903 {
   width: 100%;
   height: 4175px;
@@ -107,132 +343,17 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11784 {
-  width: 80px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 220px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: normal;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11785 {
-  width: 160px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 250px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11786 {
-  width: 160px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 340px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11787 {
-  width: 130px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 160px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.driverInfo {
-	height: 400px;
-	
-	margin: 0px 50px;
-	border-bottom: 1px solid rgba(217,217,217,1);
-	
-}
-.v240_11788 {
-  width: 40px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 75px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11789 {
-  width: 120px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 415px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11790 {
-  width: 159px;
-  color: rgba(73,85,159,1);
-  position: absolute;
-  top: 445px;
-  left: 60px;
-  font-size: 24px;
-  font-weight: bold;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11791 {
-  width: 85px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 310px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: normal;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11792 {
-  width: 80px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 130px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: Regular;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v240_11793 {
-  width: 230px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 500px;
-  left: 70px;
-  font-family: Noto Sans;
-  font-weight: normal;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
+
+
+
+
+
+
+
+
+
+
+
 .v240_11794 {
   width: 245px;
   color: rgba(91,91,91,1);
@@ -240,73 +361,22 @@ body {
   top: 560px;
   left: 70px;
   font-family: Noto Sans;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   opacity: 1;
   text-align: left;
 }
-.v240_11795 {
-  width: 100px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 45px;
-  left: 60px;
-  font-family: Noto Sans;
-  font-weight: normal;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
+
 .name {
   color: #fff;
 }
 .name {
   color: #fff;
 }
-.v240_11798 {
-  width: 310px;
-  height: 65px;
-  background: rgba(70,84,163,1);
-  opacity: 1;
-  position: absolute;
-  top: 700px;
-  left: 25px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-style : none;
-  overflow: hidden;
-  
-}
-.buttonFont{
-  width: 89px;
-  color: rgba(255,255,255,1);
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 24px;
-}
-.v240_11800 {
-  width: 360px;
-  height: 800px;
-  position: absolute;
-  top: 40px;
-  left: 1000px;
-  border: 1px solid rgba(217,217,217,1);
-  float: right;
-}
-.v240_11801 {
-  width: 120px;
-  color: rgba(72,72,72,1);
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 22px;
-  opacity: 1;
-  text-align: left;
-}
+
+
+
+
 .v240_11802 {
   width: 133px;
   color: rgba(72,72,72,1);
@@ -319,18 +389,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11803 {
-  width: 47px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 180px;
-  left: 0px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
+
 .v240_11804 {
   width: 47px;
   color: rgba(91,91,91,1);
@@ -343,18 +402,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11805 {
-  width: 100px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 210px;
-  left: 0px;
-  font-family: Noto Sans;
-  font-weight: normal;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
+
 .v240_11806 {
   width: 77px;
   color: rgba(91,91,91,1);
@@ -367,18 +415,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v240_11807 {
-  width: 60px;
-  color: rgba(91,91,91,1);
-  position: absolute;
-  top: 245px;
-  left: 0px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
+
 .v240_11808 {
   width: 66px;
   color: rgba(91,91,91,1);
@@ -392,7 +429,7 @@ body {
   text-align: left;
 }
 .v240_11809 {
-  width: 54px;
+  width: 70px;
   color: rgba(91,91,91,1);
   position: absolute;
   top: 180px;
@@ -859,21 +896,7 @@ body {
   left: 81px;
   border-radius: 50%;
 }
-.v240_11851 {
-  width: 90px;
-  height: 40px;
-  background: rgba(239,239,239,1);
-  opacity: 1;
-  position: absolute;
-  top: 120px;
-  left: 0px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  overflow: hidden;
-  padding: 10px 20px 12px 23px;
-}
+
 .v240_11852 {
   width: 90px;
   height: 40px;
@@ -888,12 +911,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v240_11853 {
-  color: rgba(95,95,95,1);
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 16px;
-}
+
 .v240_11854 {
   width: 39px;
   color: rgba(95,95,95,1);

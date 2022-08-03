@@ -6,9 +6,6 @@
 <meta charset="UTF-8">
 <title>mateMain</title>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap?" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap?" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Inter&display=swap?" rel="stylesheet" />
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
