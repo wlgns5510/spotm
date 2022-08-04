@@ -137,9 +137,11 @@
 .mateInfo_banner2 .mateMainGo .pictogrem02 {
 	width: 20px;
 	height: 20px;
-	background-color: #000000;
+	background: url("../images/common/arrow-right.png");
+	background-repeat: no-repeat;
+  	background-position: center center;
 	float: right;
-	margin: 3px 10px 0px 0px;
+	margin: 3px 15px 5px 0px;
 }
 
 .mateInfo_content .picture2 {
