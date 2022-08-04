@@ -63,7 +63,6 @@
   float: left;  
 }
 .mateInfo_content2 {
-  width: 1920px;
   height: 700px;
   background: rgba(255,255,255,1);
   padding: 200px 30px 10px 565px;
@@ -141,7 +140,7 @@
 	background-repeat: no-repeat;
   	background-position: center center;
 	float: right;
-	margin: 3px 15px 5px 0px;
+	margin: 3px 13px 0px 0px;
 }
 
 .mateInfo_content .picture2 {

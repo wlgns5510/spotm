@@ -101,7 +101,7 @@
 .mateMain_content .searchPictogrem {
   width: 54px;
   height: 54px;
-  background: rgba(70,84,163,1);
+  background: url("../images/round-search.png");
   border-radius: 50%;
   float: right;
   position: absolute;
@@ -231,12 +231,12 @@
 .mateMain_content2 .mateList {
 	float: left;
 	height: 420px;
-	margin: 0px 26px 90px 0px;
+	margin: 0px 24px 90px 0px;
 }
 .mateMain_content2 .mateList .matePicture {
   width: 340px;
   height: 330px;
-  background: url("../images/v240_11529.png");
+  background-color: #000000;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -252,7 +252,7 @@
   font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
-  margin: 0px 85px 0px 0px;
+  margin: 0px 85px 10px 0px;
 }
 .mateMain_content2 .mateList .schedule {
   width: 135px;
@@ -268,24 +268,18 @@
   font-weight: Bold;
   font-size: 20px;
   margin: 10px 73px 0px 0px;
+ float: left;
 }
-.mateMain_content2 .mateList .seatPictogrem {
-  width: 27px;
-  height: 27px;
-  background-color: #ff00ff;
+.mateMain_content2 .mateList img {
+	margin: 5px 0px 3px 0px;
 }
 .mateMain_content2 .mateList .seatNo {
   width: 50px;
   color: rgba(72,72,72,1);
   font-family: Montserrat;
-  font-weight: Bold;
+  font-weight: 600;
   font-size: 16px;
-}
-.mateMain_content2 .mateList .petPictogrem {
-  margin: 0px 0px 0px 20px;
-  width: 27px;
-  height: 27px;
-  background-color: #ff00ff;
+  margin: 7px 14px 0px 0px;
 }
 .mateMain_content2 .mateList .petYN {
   width: 50px;

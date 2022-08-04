@@ -69,49 +69,49 @@
 		
 		<div class="mateListAll clearfix">
 			<div class=mateList>
-				<div class="matePicture">		
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
 				</div><br>
 				<span class="driverName">Driver Joyunju</span>
 				<span class="schedule">일정 07.25 - 07.26</span><br>
 				<span class="startEnd">서울역 → 강릉</span>
-				<span class="seatPictogrem">좌석</span>
+				<img src="/assets/images/car icon.png">
 				<span class="seatNo">2</span>
-				<span class="petPictogrem">애견</span>
+				<img src="/assets/images/pet icon.png">
 				<span class="petYN">가능</span>
 			</div>	
 			<div class=mateList>
-				<div class="matePicture">		
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
 				</div><br>
 				<span class="driverName">Driver Joyunju</span>
 				<span class="schedule">일정 07.25 - 07.26</span><br>
 				<span class="startEnd">서울역 → 강릉</span>
-				<span class="seatPictogrem">좌석</span>
+				<img src="/assets/images/car icon.png">
 				<span class="seatNo">2</span>
-				<span class="petPictogrem">애견</span>
-				<span class="petYN">가능</span>
-			</div>	
-			<div class=mateList>
-				<div class="matePicture">		
-				</div><br>
-				<span class="driverName">Driver Joyunju</span>
-				<span class="schedule">일정 07.25 - 07.26</span><br>
-				<span class="startEnd">서울역 → 강릉</span>
-				<span class="seatPictogrem">좌석</span>
-				<span class="seatNo">2</span>
-				<span class="petPictogrem">애견</span>
+				<img src="/assets/images/pet icon.png">
 				<span class="petYN">가능</span>
 			</div>
 			<div class=mateList>
-				<div class="matePicture">		
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
 				</div><br>
 				<span class="driverName">Driver Joyunju</span>
 				<span class="schedule">일정 07.25 - 07.26</span><br>
 				<span class="startEnd">서울역 → 강릉</span>
-				<span class="seatPictogrem">좌석</span>
+				<img src="/assets/images/car icon.png">
 				<span class="seatNo">2</span>
-				<span class="petPictogrem">애견</span>
+				<img src="/assets/images/pet icon.png">
 				<span class="petYN">가능</span>
-			</div>	
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
 		</div>
 			
 		<button class="mateListBtn">
