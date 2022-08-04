@@ -17,8 +17,9 @@
 
 	<!-- header -->
 	<header>
-	</header>
-	<!-- header -->
+		<c:import url="/WEB-INF/views/includes/header.jsp"></c:import>
+	</header>	
+	<!-- //header -->
 	
 	<!-- mateMain_content -->
 	<div class="mateMain_content">
@@ -119,11 +120,12 @@
 	</div>
 	<!-- //mateMain_content2 -->
 	
-	<!-- mateMain_banner -->
-	<div class="mateMain_banner">
-		<h2>BANNER</h2>
-	</div>
-	<!-- //banner -->
+	
+	<!-- footer -->
+	<header>
+		<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
+	</header>	
+	<!-- //footer -->
 </div>
 <!-- //mateMain_wrap -->
 

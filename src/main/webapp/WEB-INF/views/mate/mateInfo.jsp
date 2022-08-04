@@ -96,16 +96,13 @@
 	</div>
 	<!-- //mateInfo_content2 -->
 	
-	<!-- mateInfo_banner3 -->
-	<div class="mateInfo_banner3">
-		<span>BANNER</span>
-	</div>
-	<!-- //banner3 -->
+
 	
 	
 	<!-- footer -->
-		<footer>	
-		</footer>
+	<header>
+		<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
+	</header>	
 	<!-- //footer -->
 	
 </div>

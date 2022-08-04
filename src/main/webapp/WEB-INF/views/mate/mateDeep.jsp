@@ -16,6 +16,7 @@
 	
 		<!-- header -->
 		<header>
+			<c:import url="/WEB-INF/views/includes/header.jsp"></c:import>
 		</header>	
 		<!-- //header -->
 		
@@ -123,7 +124,11 @@
 		<!-- //mateDeep_content -->
 		
 				
-		
+		<!-- footer -->
+		<header>
+			<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
+		</header>	
+		<!-- //footer -->
 	
 	</div>
 	<!-- //mateDeep_wrap -->
