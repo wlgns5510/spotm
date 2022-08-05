@@ -5,12 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>mateMain</title>
-</head>
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
-
+</head>
 <body>
 <!-- mateMain_wrap -->
 <div class="mateMain_wrap">
@@ -79,6 +78,94 @@
 				<img src="/assets/images/pet icon.png">
 				<span class="petYN">가능</span>
 			</div>	
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
 			<div class=mateList>
 				<div class="matePicture" onclick="location.href='/mateDeep'">		
 				</div><br>

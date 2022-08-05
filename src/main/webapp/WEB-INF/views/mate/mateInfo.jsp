@@ -5,12 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>mateInfo</title>
-</head>
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
-
+</head>
 <body>
 <!-- mateInfo_wrap -->
 <div class="mateInfo_wrap">

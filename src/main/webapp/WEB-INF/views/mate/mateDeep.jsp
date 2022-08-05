@@ -5,11 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>mateDeep</title>
-</head>
 <script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/mateDeep.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
+</head>
 <body>
 	<!-- mateDeep_wrap -->
 	<div class="mateDeep_wrap">
@@ -111,6 +111,7 @@
 			
 			<div class="mateDeep_titleFont2">주변 장소 추천</div>
 			<div class="mateDeep_map"></div>
+			<img src="/assets/images/ico_spot.png">
 			
 			
 		
