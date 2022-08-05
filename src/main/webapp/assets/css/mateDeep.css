@@ -3,9 +3,39 @@
 .clearfix:after {clear: both;}
 .mateDeep_wrap {
 	width: 1920px;
-	height: 4175px;
+	height: 100%;
 	background: rgba(255,255,255,1);
 	margin: 0px auto;	
+}
+.mateDeep_img1 {
+	margin: 0px 0px 0px 0px;
+}
+.mateDeep_img2 {
+	margin: 20px 0px 0px 0px;
+}
+.mateDeep_placeRecommend {
+   position: absolute;
+   top: 900px;
+   left: 763px;  
+   float: right;
+}
+.mateDeep_placeAround {
+	color: rgba(91,91,91,1);
+	font-family: Noto Sans;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 10px 10px 10px 10px;
+}
+.mateDeep_placeRecommend select {
+   background:url('/assets/images/arrows_exchange.png') no-repeat 97% 50%/15px auto;
+   border: 2px solid rgba(217,217,217,1);
+   width: 140px; 
+   padding: 10px 35px 10px 25px;
+   margin: 25px 0px 0px 0px;
+   font-family: Noto Sans;
+   font-weight: 400px;
+   color : rgba(102,102,102,1);
+   
 }
 .mateDeep_banner1 {
   width: 1920px;
@@ -307,6 +337,7 @@
   width: 945px;
   height: 300px;
   background: rgba(245,245,245,1);
+  margin: 0px 0px 21px 0px;
 }
 #content2 {
 	float: right;
@@ -968,16 +999,7 @@
   opacity: 1;
   text-align: left;
 }
-.v240_11862 {
-  width: 51px;
-  height: 40px;
-  background: rgba(73,85,159,1);
-  opacity: 1;
-  position: absolute;
-  top: 1344px;
-  left: 1136px;
-  overflow: hidden;
-}
+
 .v240_11863 {
   width: 20px;
   height: 20px;

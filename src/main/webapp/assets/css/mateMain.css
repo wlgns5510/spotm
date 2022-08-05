@@ -9,8 +9,9 @@
 }
 .mateMain_wrap {
 	width: 1920px;
+	height: auto;
 	margin: 0px auto;
-	background: rgba(255,255,255,1);
+	
 }
 /***********************mateMain_content**************************/
 .mateMain_content {
@@ -115,7 +116,7 @@
 }
 .mateMain_content2 {
 	width: 1440px;
-	height: 2000px;
+	height: 2500px;
 	background: rgba(255,255,255,1);
 	margin: 0px 240px 0px 240px;	
 }
@@ -296,8 +297,8 @@
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  overflow: hidden;
   margin: 30px 0px 0px 560px;
+  float: left;
 }
 .mateMain_content2 .mateListBtn h2 {
   width: 100px;

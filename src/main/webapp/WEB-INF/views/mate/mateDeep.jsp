@@ -111,7 +111,17 @@
 			
 			<div class="mateDeep_titleFont2">주변 장소 추천</div>
 			<div class="mateDeep_map"></div>
-			<img src="/assets/images/ico_spot.png">
+			<img class="mateDeep_img1" src="/assets/images/ico_spot.png">
+			<span class="mateDeep_placeAround">송정동 주변 4km</span>
+			
+			<span class="mateDeep_placeRecommend">
+				<select name="items1">
+					<option value="HTML">카페</option>
+					<option value="자바스크립트">음식점</option>
+					<option value="CSS">명소</option>
+				</select>
+				<img class="mateDeep_img2" src="/assets/images/ico_spot.png">				
+			</span>
 			
 			
 		

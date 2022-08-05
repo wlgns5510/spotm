@@ -66,18 +66,7 @@
 				<span class="useTrunk"><input type="checkbox" name="mateContactList" value="useTrunk">트렁크 사용 가능</span>										
 		</div>
 		
-		<div class="mateListAll clearfix">
-			<div class=mateList>
-				<div class="matePicture" onclick="location.href='/mateDeep'">		
-				</div><br>
-				<span class="driverName">Driver Joyunju</span>
-				<span class="schedule">일정 07.25 - 07.26</span><br>
-				<span class="startEnd">서울역 → 강릉</span>
-				<img src="/assets/images/car icon.png">
-				<span class="seatNo">2</span>
-				<img src="/assets/images/pet icon.png">
-				<span class="petYN">가능</span>
-			</div>	
+		<div class="mateListAll clear">
 			<div class=mateList>
 				<div class="matePicture" onclick="location.href='/mateDeep'">		
 				</div><br>
@@ -199,22 +188,36 @@
 				<img src="/assets/images/pet icon.png">
 				<span class="petYN">가능</span>
 			</div>
+			<div class=mateList>
+				<div class="matePicture" onclick="location.href='/mateDeep'">		
+				</div><br>
+				<span class="driverName">Driver Joyunju</span>
+				<span class="schedule">일정 07.25 - 07.26</span><br>
+				<span class="startEnd">서울역 → 강릉</span>
+				<img src="/assets/images/car icon.png">
+				<span class="seatNo">2</span>
+				<img src="/assets/images/pet icon.png">
+				<span class="petYN">가능</span>
+			</div>
+			
+			
+			<button class="mateListBtn">
+				<h2>더보기</h2>
+			</button>
+						
 		</div>
 			
-		<button class="mateListBtn">
-			<h2>더보기</h2>
-		</button>		
+				
 	</div>
 	<!-- //mateMain_content2 -->
 	
 	
 	<!-- footer -->
-	<header>
+	<footer>
 		<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
-	</header>	
+	</footer>	
 	<!-- //footer -->
 </div>
 <!-- //mateMain_wrap -->
-
 </body>
 </html>

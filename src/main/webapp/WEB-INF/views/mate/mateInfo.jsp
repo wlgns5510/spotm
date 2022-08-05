@@ -99,9 +99,9 @@
 	
 	
 	<!-- footer -->
-	<header>
+	<footer>
 		<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
-	</header>	
+	</footer>	
 	<!-- //footer -->
 	
 </div>
