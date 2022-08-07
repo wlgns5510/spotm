@@ -119,13 +119,14 @@
 			<span class="mateDeep_placeAround">송정동 주변 4km</span>
 			
 			<span class="mateDeep_placeRecommend">
-				<select name="items1">
-					<option value="HTML">카페</option>
-					<option value="자바스크립트">음식점</option>
-					<option value="CSS">명소</option>
+				<select name="placeRecommend">
+					<option value="cafe">카페</option>
+					<option value="restaurant">음식점</option>
+					<option value="attraction">명소</option>
 				</select>
-				<img class="mateDeep_img2" src="/assets/images/square-search.png">			
 			</span>
+				<img class="mateDeep_img2" src="/assets/images/square-search.png">			
+			
 			
 			
 		
