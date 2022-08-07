@@ -5,10 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>mateInfo</title>
-<script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
+
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/swiper.min.js"></script>
+<script src="/assets/js/style.js"></script>
 
 </head>
 <body>

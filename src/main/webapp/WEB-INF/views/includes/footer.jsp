@@ -79,7 +79,7 @@
 </div>
 <!-- 경찰 고정배너  -->
 
-</footer>
+</body>
 <!-- //body -->
 
 <script>
@@ -93,4 +93,3 @@
       loop : true,
    });
 </script>
-

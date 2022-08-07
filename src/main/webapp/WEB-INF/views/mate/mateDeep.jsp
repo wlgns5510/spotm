@@ -5,10 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>mateDeep</title>
-<script type="text/javascript" src="./assets/js/jquery-1.12.4.js"></script>
 
-<link href="${pageContext.request.contextPath}/assets/css/mateDeep.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
+
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/swiper.min.js"></script>
+<script src="/assets/js/style.js"></script>
+
 </head>
 <body>
 	<!-- mateDeep_wrap -->
@@ -120,7 +124,7 @@
 					<option value="자바스크립트">음식점</option>
 					<option value="CSS">명소</option>
 				</select>
-				<img class="mateDeep_img2" src="/assets/images/ico_spot.png">				
+				<img class="mateDeep_img2" src="/assets/images/square-search.png">			
 			</span>
 			
 			
