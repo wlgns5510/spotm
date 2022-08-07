@@ -59,15 +59,16 @@
 	
 	<!-- mateMain_content2 -->
 	<div class="mateMain_content2">
+		<div class="DetaileBox">
+			<img class="DetaileBoxImg" src="/assets/images/ico_filter_white.png"> 
+			<span class="DetaileBoxFont">상세조건</span>
+		</div>
 		<div class="checkBox">
 				<span class="nonSmoke"><input type="checkbox" name="mateContactList" value="nonSmoke">비흡연자</span>
 				<span class="femaleDriver"><input type="checkbox" name="mateContactList" value="femaleDriver">여성드라이버</span>
 				<span class="pet"><input type="checkbox" name="mateContactList" value="pet">반려동물</span>
-				<span class="phoneCharger"><input type="checkbox" name="mateContactList" value="phoneCharger">핸드폰 충전기 이용 가능</span>
-				<span class="handWash"><input type="checkbox" name="mateContactList" value="handWash">손소독제</span>
-				<span class="carWifi"><input type="checkbox" name="mateContactList" value="carWifi">차량 와이파이</span>
-				<span class="silence"><input type="checkbox" name="mateContactList" value="silence">조용히가기</span>
-				<span class="useTrunk"><input type="checkbox" name="mateContactList" value="useTrunk">트렁크 사용 가능</span>										
+				<span class="phoneCharger"><input type="checkbox" name="mateContactList" value="phoneCharger">충전기 사용 가능</span>
+				<span class="useTrunk"><input type="checkbox" name="mateContactList" value="useTrunk">트렁크 사용 가능</span>									
 		</div>
 		
 		<div class="mateListAll clear">

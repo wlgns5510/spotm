@@ -120,11 +120,33 @@
 	background: rgba(255,255,255,1);
 	margin: 0px 240px 0px 240px;	
 }
+.mateMain_content2 .DetaileBox {
+	width: 150px;
+	height:55px;
+	background-color: #4454A1;
+	float: left;
+	position: relative;
+	
+}
+.mateMain_content2 .DetaileBox .DetaileBoxFont {
+	top: 20px;
+	left: 60px;
+	font-family: Noto Sans;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+}
+.mateMain_content2 .DetaileBox .DetaileBoxImg {
+	top: 17px;
+	left: 25px;
+    position: absolute;
+}
 .mateMain_content2 .checkBox {
-  width: 1435px;
-  height: 55px;
+  width: 1284px;
+  height: 53px;
   background: rgba(255,255,255,1);
-  margin: 60px 0px 50px 0px;
+  margin: 60px 0px 50px 100px;
   padding : 0px 0px 0px 0px;
   border: 1px solid rgba(217,217,217,1);
   overflow: hidden;
@@ -147,7 +169,7 @@
   color: rgba(72,72,72,1);
   position: absolute;
   top: 19px;
-  left: 170px;
+  left: 180px;
   font-family: Noto Sans;
   font-weight: 400;
   font-size: 16px;
@@ -159,7 +181,7 @@
   color: rgba(72,72,72,1);
   position: absolute;
   top: 19px;
-  left: 340px;
+  left: 350px;
   font-family: Noto Sans;
   font-weight: 400;
   font-size: 16px;
@@ -171,43 +193,7 @@
   color: rgba(72,72,72,1);
   position: absolute;
   top: 19px;
-  left: 485px;
-  font-family: Noto Sans;
-  font-weight: 400;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
-.mateMain_content2 .handWash {
-  width: 90px;
-  color: rgba(72,72,72,1);
-  position: absolute;
-  top: 19px;
-  left: 740px;
-  font-family: Noto Sans;
-  font-weight: 400;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
-.mateMain_content2 .carWifi {
-  width: 125px;
-  color: rgba(72,72,72,1);
-  position: absolute;
-  top: 19px;
-  left: 890px;
-  font-family: Noto Sans;
-  font-weight: 400;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
-.mateMain_content2 .silence {
-  width: 105px;
-  color: rgba(72,72,72,1);
-  position: absolute;
-  top: 19px;
-  left: 1090px;
+  left: 500px;
   font-family: Noto Sans;
   font-weight: 400;
   font-size: 16px;
@@ -215,11 +201,11 @@
   text-align: left;
 }
 .mateMain_content2 .useTrunk {
-  width: 145px;
+  width: 160px;
   color: rgba(72,72,72,1);
   position: absolute;
   top: 19px;
-  left: 1260px;
+  left: 700px;
   font-family: Noto Sans;
   font-weight: 400;
   font-size: 16px;
