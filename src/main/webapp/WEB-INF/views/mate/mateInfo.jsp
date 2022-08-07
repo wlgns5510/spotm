@@ -9,6 +9,7 @@
 
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet" />
 <link href="${pageContext.request.contextPath}/assets/css/swiper-bundle.main.css" rel="stylesheet" />
+
 </head>
 <body>
 <!-- mateInfo_wrap -->
