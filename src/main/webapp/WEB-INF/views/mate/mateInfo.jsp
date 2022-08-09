@@ -97,9 +97,8 @@
 		누구나 언제 어디서든 자유롭게 이동할 수 있습니다.
 		</p>
 	</div>
-	<!-- //mateInfo_content2 -->
+	<!-- //mateInfo_content2 -->	
 	
-
 	
 	
 	<!-- footer -->
